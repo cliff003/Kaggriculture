@@ -1,0 +1,9 @@
+games 641 (val 64), steps 460879, unit samples 4644387
+action frequencies: {'NORTH': 616685, 'SOUTH': 408719, 'EAST': 377696, 'WEST': 569554, 'PASS': 200231, 'WATER': 712171, 'HARVEST': 345628, 'FERTILIZE': 144521, 'DIG': 19365, 'BUILD_COOP': 4857, 'BUILD_PASTURE': 9568, 'FEED': 257682, 'COLLECT_FERTILIZER': 308241, 'CARE': 259758, 'DROP': 77795, 'PLANT_WHEAT': 108433, 'PLANT_CARROT': 34102, 'PLANT_TOMATO': 2459, 'PLANT_STRAWBERRY': 19208, 'PLANT_MELON': 7455, 'PICKUP_WHEAT': 95674, 'PICKUP_FERTILIZER': 9502, 'PICKUP_GOOSE': 5857, 'PICKUP_COW': 7086, 'PICKUP_SHEEP': 5021, 'PLACE_MELON': 23, 'PLACE_MILK': 4675, 'PLACE_WOOL': 599, 'PLACE_FERTILIZER': 16285, 'PLACE_GOOSE': 5065, 'PLACE_COW': 5464, 'PLACE_SHEEP': 5008}
+epoch 1: train loss 0.836  val unit accuracy 0.821  market orders precision 0.757 recall 0.387
+epoch 2: train loss 0.493  val unit accuracy 0.848  market orders precision 0.782 recall 0.512
+epoch 3: train loss 0.429  val unit accuracy 0.863  market orders precision 0.813 recall 0.575
+epoch 4: train loss 0.396  val unit accuracy 0.870  market orders precision 0.805 recall 0.646
+epoch 5: train loss 0.376  val unit accuracy 0.875  market orders precision 0.806 recall 0.675
+epoch 6: train loss 0.361  val unit accuracy 0.877  market orders precision 0.828 recall 0.676
+saved bc/w_dsm2.npz

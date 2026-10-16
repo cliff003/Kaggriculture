@@ -1,0 +1,13 @@
+games 197 (val 19), steps 141643, unit samples 1447513
+action frequencies: {'NORTH': 180735, 'SOUTH': 137310, 'EAST': 121816, 'WEST': 165928, 'PASS': 62305, 'WATER': 233039, 'HARVEST': 110699, 'FERTILIZE': 45672, 'DIG': 7285, 'BUILD_COOP': 1396, 'BUILD_PASTURE': 3163, 'FEED': 78068, 'COLLECT_FERTILIZER': 94618, 'CARE': 78691, 'DROP': 19706, 'PLANT_WHEAT': 33707, 'PLANT_CARROT': 9926, 'PLANT_TOMATO': 2379, 'PLANT_STRAWBERRY': 6179, 'PLANT_MELON': 2147, 'PICKUP_WHEAT': 30092, 'PICKUP_FERTILIZER': 2325, 'PICKUP_GOOSE': 1691, 'PICKUP_COW': 2704, 'PICKUP_SHEEP': 1568, 'PLACE_MELON': 23, 'PLACE_MILK': 2190, 'PLACE_WOOL': 408, 'PLACE_FERTILIZER': 6855, 'PLACE_GOOSE': 1429, 'PLACE_COW': 1994, 'PLACE_SHEEP': 1465}
+epoch 1: train loss 1.047  val unit accuracy 0.765
+epoch 2: train loss 0.584  val unit accuracy 0.811
+epoch 3: train loss 0.492  val unit accuracy 0.831
+epoch 4: train loss 0.441  val unit accuracy 0.841
+epoch 5: train loss 0.411  val unit accuracy 0.847
+epoch 6: train loss 0.388  val unit accuracy 0.849
+epoch 7: train loss 0.373  val unit accuracy 0.854
+epoch 8: train loss 0.360  val unit accuracy 0.860
+epoch 9: train loss 0.349  val unit accuracy 0.862
+epoch 10: train loss 0.340  val unit accuracy 0.864
+saved bc/w_dsm.npz

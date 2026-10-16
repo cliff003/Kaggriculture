@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-10-01T11:16:08.059750+00:00",
+  "agents": [
+    {
+      "name": "Agricola",
+      "submission": 56688411,
+      "all_n": 219,
+      "predeadline_n": 196,
+      "predeadline_wins": 149,
+      "predeadline_losses": 47,
+      "first_formal_ny": "2026-09-29T18:05:36.705712-04:00",
+      "last_predeadline": {
+        "id": 116016132,
+        "end_utc": "2026-09-30T23:40:27.123869600Z",
+        "margin": 12590,
+        "score": 2101.5324369440577
+      }
+    },
+    {
+      "name": "american gothic",
+      "submission": 56720657,
+      "all_n": 86,
+      "predeadline_n": 15,
+      "predeadline_wins": 15,
+      "predeadline_losses": 0,
+      "first_formal_ny": "2026-09-30T19:02:39.315227-04:00",
+      "last_predeadline": {
+        "id": 116021331,
+        "end_utc": "2026-09-30T23:54:50.211726100Z",
+        "margin": 9588,
+        "score": 2070.920858441091
+      }
+    }
+  ]
+}

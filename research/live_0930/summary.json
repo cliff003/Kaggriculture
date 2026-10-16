@@ -1,0 +1,82 @@
+[
+  {
+    "label": "1480 历史实盘录像",
+    "n": 1480,
+    "base_wins": 1219,
+    "cand_wins": 1222,
+    "mean_delta": 192.74,
+    "changed": 56,
+    "better": 54,
+    "worse": 2,
+    "up": [
+      114644301,
+      114902771,
+      115131957
+    ],
+    "down": []
+  },
+  {
+    "label": "9/30 最新 30 局",
+    "n": 30,
+    "base_wins": 12,
+    "cand_wins": 12,
+    "mean_delta": 0.0,
+    "changed": 0,
+    "better": 0,
+    "worse": 0,
+    "up": [],
+    "down": []
+  },
+  {
+    "label": "番茄开发面板 128 局",
+    "n": 128,
+    "base_wins": 128,
+    "cand_wins": 128,
+    "mean_delta": 4226.77,
+    "changed": 120,
+    "better": 120,
+    "worse": 0,
+    "up": [],
+    "down": []
+  },
+  {
+    "label": "番茄独立面板 128 局",
+    "n": 128,
+    "base_wins": 128,
+    "cand_wins": 128,
+    "mean_delta": 4578.98,
+    "changed": 128,
+    "better": 128,
+    "worse": 0,
+    "up": [],
+    "down": []
+  },
+  {
+    "label": "羊毛面板 192 局",
+    "n": 192,
+    "base_wins": 184,
+    "cand_wins": 187,
+    "mean_delta": 250.98,
+    "changed": 23,
+    "better": 17,
+    "worse": 6,
+    "up": [
+      [
+        2026092905,
+        0,
+        "emu_antifade"
+      ],
+      [
+        2026092908,
+        1,
+        "emu_antifade"
+      ],
+      [
+        2026092909,
+        0,
+        "emu_antifade"
+      ]
+    ],
+    "down": []
+  }
+]

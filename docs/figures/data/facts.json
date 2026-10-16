@@ -1,0 +1,162 @@
+[
+ {
+  "id": "final_rank",
+  "text": "#553 of 10,148",
+  "source": "docs/postmortem.md#final-standing"
+ },
+ {
+  "id": "final_score",
+  "text": "4499.2",
+  "source": "docs/postmortem.md#final-standing"
+ },
+ {
+  "id": "silver_line",
+  "text": "#507 at 4514.5",
+  "source": "docs/postmortem.md#final-standing"
+ },
+ {
+  "id": "silver_gap",
+  "text": "15.3 points, 46 places",
+  "source": "docs/postmortem.md#final-standing"
+ },
+ {
+  "id": "gold_line",
+  "text": "#30 at 5099.6",
+  "source": "docs/postmortem.md#final-standing"
+ },
+ {
+  "id": "bronze_line",
+  "text": "#1014 at 4398.5",
+  "source": "docs/postmortem.md#final-standing"
+ },
+ {
+  "id": "first_score",
+  "text": "5890.3",
+  "source": "docs/postmortem.md#the-final-board"
+ },
+ {
+  "id": "peak_rank",
+  "text": "#128 at 2606.7 on Sep 26 10:23",
+  "source": "docs/postmortem.md#final-standing"
+ },
+ {
+  "id": "v8_peak",
+  "text": "2679 at 09:39 on Sep 26",
+  "source": "docs/history.md"
+ },
+ {
+  "id": "live_end",
+  "text": "#547 at 2065.7; live silver line 2093.1 (27.4 above)",
+  "source": "docs/postmortem.md#final-standing"
+ },
+ {
+  "id": "finals_live",
+  "text": "V12_AventadorSVJ 2046.0; v12_19 2065.7",
+  "source": "docs/history.md"
+ },
+ {
+  "id": "routes",
+  "text": "41 recorded routes; days 0 to 5 opening, day 6 mid-game route by the first two shops, day 27 endgame; 64 shop pairs",
+  "source": "docs/solution.md#the-base-agent-cha22"
+ },
+ {
+  "id": "game",
+  "text": "720 steps = 30 days x 24 hours; up to 10 market orders per step",
+  "source": "docs/solution.md#the-game"
+ },
+ {
+  "id": "base_choice",
+  "text": "826 W / 14 L against the 21 distinct codes among the top 30 public notebooks",
+  "source": "docs/solution.md#the-base-agent-cha22"
+ },
+ {
+  "id": "planner",
+  "text": "1014.5",
+  "source": "docs/history.md"
+ },
+ {
+  "id": "orderslot",
+  "text": "97 W / 3 L from step 288; 2454 vs 2342 six hours after a simultaneous upload",
+  "source": "docs/solution.md#1-order-slot-priority"
+ },
+ {
+  "id": "fertmore",
+  "text": "844 to 873 wins of 980",
+  "source": "docs/solution.md#3-fixes-to-the-bases-behaviour"
+ },
+ {
+  "id": "tick",
+  "text": "497 to 538 wins of 576 replays; up to 95 wheat; from day 10 (finals day 13)",
+  "source": "docs/solution.md#4-tick-wheat-arbitrage-around-the-towns-consumption"
+ },
+ {
+  "id": "tick_off",
+  "text": "616 per game on 1,504 replays (112 flips lost)",
+  "source": "docs/experiments.md"
+ },
+ {
+  "id": "trap",
+  "text": "-16,743 to +13,919; limit 40; v8 lost its games against two sandwich traders by about 17k each",
+  "source": "docs/solution.md#5-defending-tick-peer-guard-and-trap-guard"
+ },
+ {
+  "id": "fade",
+  "text": "+2.0k to +21.5k per game against an emulated arbitrageur",
+  "source": "docs/solution.md#6-fade-trading-against-other-arbitrageurs"
+ },
+ {
+  "id": "gfade",
+  "text": "+1,940 per game on 9 replays",
+  "source": "docs/solution.md#6-fade-trading-against-other-arbitrageurs"
+ },
+ {
+  "id": "deferral",
+  "text": "+69 per game on 917 replays, 0 flips lost",
+  "source": "docs/solution.md"
+ },
+ {
+  "id": "milk",
+  "text": "160 at stock 10,000; price 1 after 76 extra milk, 62 strawberries, 59 wool; 20 milk: 2,802 first, 1,962 second, 2,402 each in one slot (+440, +840)",
+  "source": "engine market_price"
+ },
+ {
+  "id": "gap_top5",
+  "text": "547 seats; tomatoes 98% vs 11% (about 10 tiles, days 18 to 20); geese 5 vs 3; fertilizer 204 vs 117 (88 bought, 336 sold); idle 190 vs 471; cash day 9 261 vs 2,833; final 109.8k vs 100.4k",
+  "source": "docs/postmortem.md#the-gap-to-the-top"
+ },
+ {
+  "id": "unreal",
+  "text": "#54; 66 to 9 on 75 replays; +6.2k eggs, +3.6k strawberries, +3.2k carrots, +1.5k wheat; 28 W / 3 L, +15.7k against cha22-based farms",
+  "source": "docs/postmortem.md#the-gap-to-the-top"
+ },
+ {
+  "id": "unreal_farm",
+  "text": "land day 8 vs 11; peak geese 8.4 vs 2.6; 65.5 vs 50 tiles by day 8; egg income 12.3k vs 4.1k",
+  "source": "docs/postmortem.md#the-gap-to-the-top"
+ },
+ {
+  "id": "attempts",
+  "text": "-11.5k (about 60 variants); 0.88 accuracy, 0 wins; -7.9k; -19.1k",
+  "source": "docs/experiments.md"
+ },
+ {
+  "id": "wheat_price",
+  "text": "P(gap) = 25 + sqrt(gap), rounded, for wheat below the neutral stock of 10,000",
+  "source": "engine market_price"
+ },
+ {
+  "id": "fade_estimate",
+  "text": "90 x 0.028 x (77 - 2) = about 190 against the measured +206",
+  "source": "docs/solution.md"
+ },
+ {
+  "id": "deadline_days",
+  "text": "Sep 29: 20 W / 52 L against submissions uploaded after Sep 28 18:47",
+  "source": "docs/postmortem.md"
+ },
+ {
+  "id": "uploads",
+  "text": "39 uploads, 34 packages",
+  "source": "docs/history.md"
+ }
+]

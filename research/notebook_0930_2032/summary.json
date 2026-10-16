@@ -1,0 +1,305 @@
+{
+  "checked_utc": "2026-10-01T01:44:27.063977+00:00",
+  "metadata_meaning": "last run time, not first publication time or proof of a new policy",
+  "latest_notebooks": [
+    {
+      "ref": "leoprovorov/a-song-of-ice-and-fire-final-update",
+      "title": "❄️🔥 A Song of Ice and Fire | Final Update",
+      "last_run_utc": "2026-09-30T23:15:01.900000",
+      "votes": 107
+    },
+    {
+      "ref": "destbreso/x-ray-your-agent",
+      "title": "X-ray your agent",
+      "last_run_utc": "2026-09-30T23:01:45.943000",
+      "votes": 52
+    },
+    {
+      "ref": "georgymamarin/kaggriculture-what-2600-farms-do-differently",
+      "title": "Kaggriculture | What 2600+ Farms Do Differently",
+      "last_run_utc": "2026-09-30T22:06:38.733000",
+      "votes": 55
+    },
+    {
+      "ref": "anhadmahajan06/kaggriculture-autonomous-ai-farming-agent",
+      "title": "Kaggriculture: Autonomous AI Farming Agent",
+      "last_run_utc": "2026-09-30T21:31:03.483000",
+      "votes": 23
+    },
+    {
+      "ref": "evgendvorkin/kaggriculture-version-31-26-09-bronze-going-up",
+      "title": "Kaggriculture. Version 31, 26.09, bronze, going up",
+      "last_run_utc": "2026-09-30T19:12:49.877000",
+      "votes": 73
+    },
+    {
+      "ref": "farhanabidtech786/kaggriculture-beginner-friendly",
+      "title": "kaggriculture-beginner-friendly",
+      "last_run_utc": "2026-09-30T18:10:49.510000",
+      "votes": 9
+    },
+    {
+      "ref": "lynnsakurai/farmer-john-and-the-wheat-seller",
+      "title": "Farmer John and the Wheat Seller",
+      "last_run_utc": "2026-09-30T17:19:36.580000",
+      "votes": 43
+    },
+    {
+      "ref": "flexonafft/kaggriculture-multi-route-farming-agent",
+      "title": "Kaggriculture | Multi-Route Farming Agent",
+      "last_run_utc": "2026-09-30T16:57:34.317000",
+      "votes": 125
+    },
+    {
+      "ref": "haodou092/kaggriculture-harvest-ledger",
+      "title": "Kaggriculture | Harvest Ledger",
+      "last_run_utc": "2026-09-30T15:56:57.750000",
+      "votes": 119
+    },
+    {
+      "ref": "akashbabu17/kaggriculture-autonomous-multi-agent-farming",
+      "title": "🌾 Kaggriculture: Autonomous Multi-Agent Farming",
+      "last_run_utc": "2026-09-30T06:50:12.397000",
+      "votes": 4
+    }
+  ],
+  "screen": {
+    "engine": "1.32.7",
+    "source": "research/rescue_0930/latest20.jsonl.gz",
+    "source_sha256": "0f4a3d65201a1fc2c0338e8fa863ad3b38c0b875b2eba7271fd743ddf28b0dd1",
+    "episode_ids": [
+      115735258,
+      115737188,
+      115740951,
+      115741660,
+      115747475,
+      115753537,
+      115756438,
+      115758707,
+      115759116,
+      115764255,
+      115770256,
+      115772677,
+      115777088,
+      115777918,
+      115782288,
+      115785512,
+      115792885,
+      115799085,
+      115802139,
+      115809607
+    ],
+    "forced_shops": true,
+    "fixed_opponent_actions": true,
+    "independent_holdout": false,
+    "comparisons": [
+      {
+        "path": "research/notebook_0930_2032/outputs/anhadmahajan06__kaggriculture-autonomous-ai-farming-agent/main.py",
+        "main_sha256": "061e2e7809827d86b0894cb06d5822d8bcd51f10d1fff595e98da56cf2c7bd9c",
+        "games": 20,
+        "wins": 4,
+        "ties": 0,
+        "flips_up_vs_v12_19": 0,
+        "flips_down_vs_v12_19": 3,
+        "mean_margin_delta_vs_v12_19": -3358.65,
+        "changed_games": 20,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "research/notebook_0930_2032/outputs/evgendvorkin__kaggriculture-version-31-26-09-bronze-going-up/main.py",
+        "main_sha256": "150b31599dca5e725516a98f5f73042474a0eb82b979a0e4984bd528e5b5e3dc",
+        "games": 20,
+        "wins": 4,
+        "ties": 0,
+        "flips_up_vs_v12_19": 0,
+        "flips_down_vs_v12_19": 3,
+        "mean_margin_delta_vs_v12_19": -3358.65,
+        "changed_games": 20,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "research/notebook_0930_2032/outputs/farhanabidtech786__kaggriculture-beginner-friendly/main.py",
+        "main_sha256": "d39dba50793d9777c990347443bf0c481c78adaea86055f6f6b0600dcfcd9f2e",
+        "games": 20,
+        "wins": 0,
+        "ties": 0,
+        "flips_up_vs_v12_19": 0,
+        "flips_down_vs_v12_19": 7,
+        "mean_margin_delta_vs_v12_19": -40664.0,
+        "changed_games": 20,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "research/notebook_0930_2032/outputs/flexonafft__kaggriculture-multi-route-farming-agent/main.py",
+        "main_sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed",
+        "games": 20,
+        "wins": 3,
+        "ties": 0,
+        "flips_up_vs_v12_19": 2,
+        "flips_down_vs_v12_19": 6,
+        "mean_margin_delta_vs_v12_19": 12286.25,
+        "changed_games": 20,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "research/notebook_0930_2032/outputs/haodou092__kaggriculture-harvest-ledger/main.py",
+        "main_sha256": "531a423a43184bc5864714189595ec1dbbe3c873de48691b0ebd32fa0a2359bb",
+        "games": 20,
+        "wins": 7,
+        "ties": 0,
+        "flips_up_vs_v12_19": 2,
+        "flips_down_vs_v12_19": 2,
+        "mean_margin_delta_vs_v12_19": 6013.1,
+        "changed_games": 20,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "research/notebook_0930_2032/outputs/lynnsakurai__farmer-john-and-the-wheat-seller/main.py",
+        "main_sha256": "2f6da44df0ce3b4a70d7320f45f3eca32d2a0b2593ff827db005f480481ce222",
+        "games": 20,
+        "wins": 4,
+        "ties": 0,
+        "flips_up_vs_v12_19": 2,
+        "flips_down_vs_v12_19": 5,
+        "mean_margin_delta_vs_v12_19": 5359.7,
+        "changed_games": 20,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "research/notebook_1001_0144/anhad_latest/main.py",
+        "main_sha256": "85734f96fc95c6f212a9ed58d99a369937c8f5e214f222930e4430bb01717a39",
+        "games": 20,
+        "wins": 4,
+        "ties": 0,
+        "flips_up_vs_v12_19": 0,
+        "flips_down_vs_v12_19": 3,
+        "mean_margin_delta_vs_v12_19": -3383.7,
+        "changed_games": 20,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "research/notebook_1001_0144/leo_final/main.py",
+        "main_sha256": "020be9d5655e2c06099838a85f375ff7c86dd8e62c7710801c36d402f9e900d5",
+        "games": 20,
+        "wins": 7,
+        "ties": 0,
+        "flips_up_vs_v12_19": 2,
+        "flips_down_vs_v12_19": 2,
+        "mean_margin_delta_vs_v12_19": 6140.55,
+        "changed_games": 20,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "submissions/V12_AventadorSVJ/main.py",
+        "main_sha256": "08a0d374aedd20641cc91c1683b5560a0d56f19dbe4be245dd117c95bbf3cd57",
+        "games": 20,
+        "wins": 6,
+        "ties": 0,
+        "flips_up_vs_v12_19": 0,
+        "flips_down_vs_v12_19": 1,
+        "mean_margin_delta_vs_v12_19": -302.55,
+        "changed_games": 8,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "submissions/v12_19_own_cha22_adaptive_inputs/main.py",
+        "main_sha256": "3b6a78997364b12f0cca080ff657c31acd1cd087bcfb5f8362e41da69a137f87",
+        "games": 20,
+        "wins": 7,
+        "ties": 0,
+        "flips_up_vs_v12_19": 0,
+        "flips_down_vs_v12_19": 0,
+        "mean_margin_delta_vs_v12_19": 0.0,
+        "changed_games": 0,
+        "all_done": true,
+        "agent_errors": 0
+      }
+    ]
+  },
+  "isolated_settlement_port": {
+    "comparisons": [
+      {
+        "path": "research/notebook_0930_2032/probes/shop_settlement_v1/main.py",
+        "main_sha256": "5fa11955860fc481026312441bc0d8505b669734fb448bb9eb81b25ff731ef89",
+        "games": 20,
+        "wins": 7,
+        "ties": 0,
+        "flips_up_vs_v12_19": 0,
+        "flips_down_vs_v12_19": 0,
+        "mean_margin_delta_vs_v12_19": -46.7,
+        "changed_games": 20,
+        "all_done": true,
+        "agent_errors": 0
+      },
+      {
+        "path": "submissions/v12_19_own_cha22_adaptive_inputs/main.py",
+        "main_sha256": "3b6a78997364b12f0cca080ff657c31acd1cd087bcfb5f8362e41da69a137f87",
+        "games": 20,
+        "wins": 7,
+        "ties": 0,
+        "flips_up_vs_v12_19": 0,
+        "flips_down_vs_v12_19": 0,
+        "mean_margin_delta_vs_v12_19": 0.0,
+        "changed_games": 0,
+        "all_done": true,
+        "agent_errors": 0
+      }
+    ],
+    "decision": "rejected: no extra win and negative mean margin delta; no full panel, packaging or upload"
+  },
+  "byte_exact_matches": [
+    {
+      "first": "research/notebook_0930_2032/outputs/haodou092__kaggriculture-harvest-ledger/main.py",
+      "second": "research/panel/pub0928_ledger/main.py",
+      "main_sha256": "531a423a43184bc5864714189595ec1dbbe3c873de48691b0ebd32fa0a2359bb"
+    },
+    {
+      "first": "research/notebook_0930_2032/outputs/flexonafft__kaggriculture-multi-route-farming-agent/main.py",
+      "second": "data/public/agents/ars_v43/main.py",
+      "main_sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed"
+    },
+    {
+      "first": "research/notebook_0930_2032/outputs/farhanabidtech786__kaggriculture-beginner-friendly/main.py",
+      "second": "data/public/agents/reyhan_market/main.py",
+      "main_sha256": "d39dba50793d9777c990347443bf0c481c78adaea86055f6f6b0600dcfcd9f2e"
+    },
+    {
+      "first": "research/notebook_1001_0144/leo_final/main.py",
+      "second": "research/notebook_0930_2032/extracted/leoprovorov__a-song-of-ice-and-fire-fixed-flexible/main.py",
+      "main_sha256": "020be9d5655e2c06099838a85f375ff7c86dd8e62c7710801c36d402f9e900d5"
+    }
+  ],
+  "already_present_functions": [
+    {
+      "public_main_sha256": "061e2e7809827d86b0894cb06d5822d8bcd51f10d1fff595e98da56cf2c7bd9c",
+      "functions": [
+        "e402_agent",
+        "e410_agent"
+      ],
+      "already_in_our_base": true
+    },
+    {
+      "public_main_sha256": "150b31599dca5e725516a98f5f73042474a0eb82b979a0e4984bd528e5b5e3dc",
+      "functions": [
+        "e402_agent",
+        "e410_agent"
+      ],
+      "already_in_our_base": true
+    }
+  ],
+  "anhad_late_change": {
+    "sha256": "85734f96fc95c6f212a9ed58d99a369937c8f5e214f222930e4430bb01717a39",
+    "change": "step-91 wheat sale filter threshold 31 -> 15; telemetry threshold also changed",
+    "notebook_markdown_claim_not_validation": true
+  },
+  "online_changes_this_review": false
+}

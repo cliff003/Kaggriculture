@@ -1,0 +1,16 @@
+{
+  "submission_id": 56713491,
+  "submitted_at_utc": "2026-09-30T16:41:08.693000",
+  "submitted_by": "kefeiyan",
+  "official_status": "COMPLETE",
+  "public_score": "600.0",
+  "description": "v12_19: V12 + adaptive supplementary fertilizer tours from observed farm-layout similarity; retains cash reserve and late tomato crews. cha22-derived, Apache-2.0; see NOTICE.",
+  "checked_at_utc": "2026-09-30T16:48:18.943573+00:00",
+  "active_submission_ids": [
+    56649860,
+    56713491
+  ],
+  "server_archive_sha256": "e9f45256ee5777dd9346553cdf54838254ef49a36fc55e0622a76b59c83970ec",
+  "server_copy_matches_local": true,
+  "displaced_submission_id": 56633607
+}

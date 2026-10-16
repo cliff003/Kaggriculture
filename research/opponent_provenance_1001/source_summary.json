@@ -1,0 +1,72 @@
+{
+  "checked_utc": "2026-10-01T11:22:44.866867+00:00",
+  "public_document_sources": [
+    {
+      "ref": "destbreso/kaggriculture-measure-your-agent",
+      "dataset_sources": [
+        "destbreso/kaggriculture-benchmark-matchups"
+      ],
+      "kernel_sources": [],
+      "source_files": [
+        {
+          "name": "kaggriculture-measure-your-agent.ipynb",
+          "bytes": 28982,
+          "sha256": "259804045a458ae3cb44cf631d0dd5430383c562bd3f200af5f50d919da9a751"
+        }
+      ],
+      "included_in_recent100_snapshot": false
+    },
+    {
+      "ref": "kaitofukami/177-180-fresh-top-30-v21-1-conditional-memory",
+      "dataset_sources": [],
+      "kernel_sources": [],
+      "source_files": [
+        {
+          "name": "177-180-fresh-top-30-v21-1-conditional-memory.ipynb",
+          "bytes": 460518,
+          "sha256": "32471f25e3bc3c206a0539d8fd08ab3db52db8460c6ab90cac75249c6819e2d5"
+        }
+      ],
+      "included_in_recent100_snapshot": false
+    },
+    {
+      "ref": "raykkretzschmar/kaggriculture-rank-your-agent",
+      "dataset_sources": [
+        "raykkretzschmar/kaggriculture-reference-agents"
+      ],
+      "kernel_sources": [
+        "raykkretzschmar/kaggriculture-findings-from-zero-to-top-meta"
+      ],
+      "source_files": [
+        {
+          "name": "kaggriculture-rank-your-agent.ipynb",
+          "bytes": 236136,
+          "sha256": "5c33ed32e5fe8594a127180f566bc4b41e0a1135b18d89986f8b54fb71d259ff"
+        }
+      ],
+      "included_in_recent100_snapshot": false
+    },
+    {
+      "ref": "raykkretzschmar/kaggriculture-findings-from-zero-to-top-meta",
+      "dataset_sources": [],
+      "kernel_sources": [
+        "kaitofukami/177-180-fresh-top-30-v21-1-conditional-memory"
+      ],
+      "source_files": [
+        {
+          "name": "kaggriculture-findings-from-zero-to-top-meta.ipynb",
+          "bytes": 240118,
+          "sha256": "a7447511510ed22b73f2315246b6bf4de66f219ffe3ba692a377f3fb47931331"
+        }
+      ],
+      "included_in_recent100_snapshot": false
+    }
+  ],
+  "code_top30_checked_utc": "2026-10-01T11:10:41+00:00",
+  "version_changes_vs_sep30_2033": [],
+  "notes": [
+    "Availability is not proof that a named opponent used this source.",
+    "Source and notebooks were downloaded but not executed.",
+    "Recent100 is a bounded dateRun list, not an exhaustive public-code inventory."
+  ]
+}

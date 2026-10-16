@@ -1,0 +1,646 @@
+{
+  "notes": [
+    "All deltas are observed updatedScore minus initialScore, no assumed Elo formula.",
+    "Opponent versions, world seeds and game times differ; aggregate correlations do not establish patch causality.",
+    "NY calendar days are grouped by episode endTime.",
+    "One ERRORED episode for the new version has a scored win; it is included in all-scored-state totals but excluded from completed-state win rates.",
+    "Two simultaneous episodes can expose the same initial score with distinct updated scores; summing individual deltas then differs from the actual endpoint change."
+  ],
+  "common_opponent_submission_count": 111,
+  "results": {
+    "56649860": {
+      "cutoff_utc": "2026-09-30T23:59:00+00:00",
+      "data_last_ny": "2026-10-08T02:48:56.339766-04:00",
+      "post_cutoff_completed": {
+        "n": 366,
+        "wins": 175,
+        "losses": 191,
+        "ties": 0,
+        "delta_sum": -99.07586481947374,
+        "initial_first": 2169.35163804884,
+        "updated_last": 2065.8075187845634,
+        "distinct_opponent_submissions": 266,
+        "opponent_initial_mean": 2060.4992208794893,
+        "opponent_minus_own_initial_mean": -4.731268398669183
+      },
+      "post_cutoff_all_scored_states": {
+        "n": 366,
+        "wins": 175,
+        "losses": 191,
+        "ties": 0,
+        "delta_sum": -99.07586481947374,
+        "initial_first": 2169.35163804884,
+        "updated_last": 2065.8075187845634,
+        "distinct_opponent_submissions": 266,
+        "opponent_initial_mean": 2060.4992208794893,
+        "opponent_minus_own_initial_mean": -4.731268398669183
+      },
+      "daily_ny": {
+        "2026-09-30": {
+          "n": 4,
+          "wins": 1,
+          "losses": 3,
+          "ties": 0,
+          "delta_sum": -9.135146202935175,
+          "initial_first": 2169.35163804884,
+          "updated_last": 2160.216491845905,
+          "distinct_opponent_submissions": 4,
+          "opponent_initial_mean": 2156.257586077416,
+          "opponent_minus_own_initial_mean": -11.410060529779685,
+          "actual_endpoint_change": -9.135146202935175,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.058705334774459,
+          "loss_delta_mean": -4.397950512569878
+        },
+        "2026-10-01": {
+          "n": 45,
+          "wins": 17,
+          "losses": 28,
+          "ties": 0,
+          "delta_sum": -49.73139706079564,
+          "initial_first": 2160.216491845905,
+          "updated_last": 2110.485094785109,
+          "distinct_opponent_submissions": 45,
+          "opponent_initial_mean": 2136.1207964969735,
+          "opponent_minus_own_initial_mean": -0.20737297551017442,
+          "actual_endpoint_change": -49.73139706079564,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.039053313068614,
+          "loss_delta_mean": -4.228403692248646
+        },
+        "2026-10-02": {
+          "n": 51,
+          "wins": 20,
+          "losses": 31,
+          "ties": 0,
+          "delta_sum": -49.445151362597244,
+          "initial_first": 2110.485094785109,
+          "updated_last": 2056.571688977709,
+          "distinct_opponent_submissions": 47,
+          "opponent_initial_mean": 2088.4768720986954,
+          "opponent_minus_own_initial_mean": 0.5968250671494612,
+          "actual_endpoint_change": -53.91340580740007,
+          "endpoint_minus_completed_delta_sum": -4.468254444802824,
+          "win_delta_mean": 4.207657131469944,
+          "loss_delta_mean": -4.309622386838584
+        },
+        "2026-10-03": {
+          "n": 50,
+          "wins": 27,
+          "losses": 23,
+          "ties": 0,
+          "delta_sum": 3.3047191564551213,
+          "initial_first": 2056.571688977709,
+          "updated_last": 2059.876408134164,
+          "distinct_opponent_submissions": 48,
+          "opponent_initial_mean": 2020.7636898343972,
+          "opponent_minus_own_initial_mean": -18.556108763797717,
+          "actual_endpoint_change": 3.3047191564551213,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 3.9862845522334114,
+          "loss_delta_mean": -4.535867989297695
+        },
+        "2026-10-04": {
+          "n": 46,
+          "wins": 23,
+          "losses": 23,
+          "ties": 0,
+          "delta_sum": -6.6295413951220326,
+          "initial_first": 2059.876408134164,
+          "updated_last": 2053.246866739042,
+          "distinct_opponent_submissions": 46,
+          "opponent_initial_mean": 2045.076067975564,
+          "opponent_minus_own_initial_mean": -9.316173595145157,
+          "actual_endpoint_change": -6.6295413951220326,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.0467954354098365,
+          "loss_delta_mean": -4.335036365632534
+        },
+        "2026-10-05": {
+          "n": 52,
+          "wins": 25,
+          "losses": 27,
+          "ties": 0,
+          "delta_sum": -12.772730106957852,
+          "initial_first": 2053.246866739042,
+          "updated_last": 2040.4741366320843,
+          "distinct_opponent_submissions": 50,
+          "opponent_initial_mean": 2049.447877561641,
+          "opponent_minus_own_initial_mean": -4.5738754298365665,
+          "actual_endpoint_change": -12.772730106957852,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.2706979007289645,
+          "loss_delta_mean": -4.427413986117851
+        },
+        "2026-10-06": {
+          "n": 51,
+          "wins": 27,
+          "losses": 24,
+          "ties": 0,
+          "delta_sum": 2.1220298685439047,
+          "initial_first": 2040.4741366320843,
+          "updated_last": 2042.5961665006282,
+          "distinct_opponent_submissions": 49,
+          "opponent_initial_mean": 2020.0364044102323,
+          "opponent_minus_own_initial_mean": -14.12582201563312,
+          "actual_endpoint_change": 2.1220298685439047,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.058490010770617,
+          "loss_delta_mean": -4.477383350927615
+        },
+        "2026-10-07": {
+          "n": 57,
+          "wins": 30,
+          "losses": 27,
+          "ties": 0,
+          "delta_sum": 25.631316994036524,
+          "initial_first": 2042.5961665006282,
+          "updated_last": 2068.2274834946647,
+          "distinct_opponent_submissions": 53,
+          "opponent_initial_mean": 2064.9032210347546,
+          "opponent_minus_own_initial_mean": 13.400389659658195,
+          "actual_endpoint_change": 25.631316994036524,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.502524130974848,
+          "loss_delta_mean": -4.0534965531558855
+        },
+        "2026-10-08": {
+          "n": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "delta_sum": -2.4199647101013397,
+          "initial_first": 2068.2274834946647,
+          "updated_last": 2065.8075187845634,
+          "distinct_opponent_submissions": 10,
+          "opponent_initial_mean": 2047.5614702482164,
+          "opponent_minus_own_initial_mean": -15.632462820563045,
+          "actual_endpoint_change": -2.4199647101013397,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 3.905928274342659,
+          "loss_delta_mean": -4.389921216362927
+        }
+      },
+      "opponent_score_bands": {
+        "1900-2000": {
+          "n": 59,
+          "wins": 48,
+          "losses": 11,
+          "ties": 0,
+          "delta_sum": 100.47534193268348,
+          "initial_first": 2061.7107917888898,
+          "updated_last": 2066.6352145060096,
+          "distinct_opponent_submissions": 55,
+          "opponent_initial_mean": 1971.1665302517001,
+          "opponent_minus_own_initial_mean": -71.18002172626956
+        },
+        "2000-2100": {
+          "n": 209,
+          "wins": 99,
+          "losses": 110,
+          "ties": 0,
+          "delta_sum": -77.8742780749294,
+          "initial_first": 2154.553635236123,
+          "updated_last": 2065.8075187845634,
+          "distinct_opponent_submissions": 148,
+          "opponent_initial_mean": 2047.7118545026794,
+          "opponent_minus_own_initial_mean": -8.319065895718346
+        },
+        "2100-2200": {
+          "n": 92,
+          "wins": 28,
+          "losses": 64,
+          "ties": 0,
+          "delta_sum": -101.47167321919096,
+          "initial_first": 2165.9231537203104,
+          "updated_last": 2053.212704391925,
+          "distinct_opponent_submissions": 79,
+          "opponent_initial_mean": 2136.846012711685,
+          "opponent_minus_own_initial_mean": 41.352086864425296
+        },
+        "2200-2300": {
+          "n": 6,
+          "wins": 0,
+          "losses": 6,
+          "ties": 0,
+          "delta_sum": -20.205255458036845,
+          "initial_first": 2169.35163804884,
+          "updated_last": 2111.193194865943,
+          "distinct_opponent_submissions": 6,
+          "opponent_initial_mean": 2213.7131327512943,
+          "opponent_minus_own_initial_mean": 67.04497143583164
+        }
+      },
+      "relative_opponent_bands": {
+        "within_50": {
+          "n": 257,
+          "wins": 116,
+          "losses": 141,
+          "ties": 0,
+          "delta_sum": -132.24051783286654,
+          "initial_first": 2169.35163804884,
+          "updated_last": 2065.8075187845634,
+          "distinct_opponent_submissions": 181,
+          "opponent_initial_mean": 2061.7810246696913,
+          "opponent_minus_own_initial_mean": -4.786649392676904
+        },
+        "opp_below_by_50plus": {
+          "n": 56,
+          "wins": 45,
+          "losses": 11,
+          "ties": 0,
+          "delta_sum": 83.66515511914781,
+          "initial_first": 2154.553635236123,
+          "updated_last": 2066.6352145060096,
+          "distinct_opponent_submissions": 53,
+          "opponent_initial_mean": 1973.9149750062684,
+          "opponent_minus_own_initial_mean": -78.81877445022708
+        },
+        "opp_above_by_50plus": {
+          "n": 53,
+          "wins": 14,
+          "losses": 39,
+          "ties": 0,
+          "delta_sum": -50.500502105755004,
+          "initial_first": 2153.830161564673,
+          "updated_last": 2053.212704391925,
+          "distinct_opponent_submissions": 45,
+          "opponent_initial_mean": 2145.7689226685166,
+          "opponent_minus_own_initial_mean": 73.8184156456181
+        }
+      },
+      "shared_opponent_submissions_rows": {
+        "n": 160,
+        "wins": 62,
+        "losses": 98,
+        "ties": 0,
+        "delta_sum": -164.76958463960636,
+        "initial_first": 2165.9231537203104,
+        "updated_last": 2061.7538920015268,
+        "distinct_opponent_submissions": 111,
+        "opponent_initial_mean": 2064.5678998615635,
+        "opponent_minus_own_initial_mean": -0.9821745663124417
+      },
+      "scored_noncompleted_rows": [],
+      "rating_metadata_fork_cases": [
+        {
+          "chain_difference": -4.468254444802824,
+          "rows": [
+            {
+              "id": 116946251,
+              "endTime": "2026-10-02T16:35:02.957144700Z",
+              "initial": 2096.505547232503,
+              "updated": 2100.973801677306,
+              "delta": 4.468254444802824,
+              "outcome": "W"
+            },
+            {
+              "id": 116946195,
+              "endTime": "2026-10-02T16:35:03.200848700Z",
+              "initial": 2096.505547232503,
+              "updated": 2091.7906261784224,
+              "delta": -4.714921054080605,
+              "outcome": "L"
+            },
+            {
+              "id": 116953871,
+              "endTime": "2026-10-02T16:59:01.987516800Z",
+              "initial": 2091.7906261784224,
+              "updated": 2088.4499949288324,
+              "delta": -3.340631249589933,
+              "outcome": "L"
+            }
+          ]
+        }
+      ]
+    },
+    "56713491": {
+      "cutoff_utc": "2026-09-30T23:59:00+00:00",
+      "data_last_ny": "2026-10-08T02:42:09.634565-04:00",
+      "post_cutoff_completed": {
+        "n": 353,
+        "wins": 164,
+        "losses": 189,
+        "ties": 0,
+        "delta_sum": -141.47994270457457,
+        "initial_first": 2161.257980129416,
+        "updated_last": 2020.7033738561158,
+        "distinct_opponent_submissions": 270,
+        "opponent_initial_mean": 2061.792583425856,
+        "opponent_minus_own_initial_mean": -4.959273890748895
+      },
+      "post_cutoff_all_scored_states": {
+        "n": 354,
+        "wins": 165,
+        "losses": 189,
+        "ties": 0,
+        "delta_sum": -136.7659353645031,
+        "initial_first": 2161.257980129416,
+        "updated_last": 2020.7033738561158,
+        "distinct_opponent_submissions": 271,
+        "opponent_initial_mean": 2061.839346199034,
+        "opponent_minus_own_initial_mean": -4.907439665122551
+      },
+      "daily_ny": {
+        "2026-09-30": {
+          "n": 6,
+          "wins": 2,
+          "losses": 4,
+          "ties": 0,
+          "delta_sum": -4.780606057562181,
+          "initial_first": 2161.257980129416,
+          "updated_last": 2156.477374071854,
+          "distinct_opponent_submissions": 5,
+          "opponent_initial_mean": 2201.137427695735,
+          "opponent_minus_own_initial_mean": 41.882627896376334,
+          "actual_endpoint_change": -4.780606057562181,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 5.334299567908829,
+          "loss_delta_mean": -3.86230129834496
+        },
+        "2026-10-01": {
+          "n": 45,
+          "wins": 18,
+          "losses": 27,
+          "ties": 0,
+          "delta_sum": -46.949650774136444,
+          "initial_first": 2156.477374071854,
+          "updated_last": 2109.5277232977173,
+          "distinct_opponent_submissions": 41,
+          "opponent_initial_mean": 2131.5147060385575,
+          "opponent_minus_own_initial_mean": -8.488536971847696,
+          "actual_endpoint_change": -46.949650774136444,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.054759191055711,
+          "loss_delta_mean": -4.442048748634786
+        },
+        "2026-10-02": {
+          "n": 50,
+          "wins": 24,
+          "losses": 26,
+          "ties": 0,
+          "delta_sum": -28.182330023017585,
+          "initial_first": 2109.5277232977173,
+          "updated_last": 2081.3453932746997,
+          "distinct_opponent_submissions": 47,
+          "opponent_initial_mean": 2062.114864620847,
+          "opponent_minus_own_initial_mean": -23.70418696820066,
+          "actual_endpoint_change": -28.182330023017585,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 3.9051644521867197,
+          "loss_delta_mean": -4.688702956749956
+        },
+        "2026-10-03": {
+          "n": 42,
+          "wins": 19,
+          "losses": 23,
+          "ties": 0,
+          "delta_sum": -13.060115096206118,
+          "initial_first": 2081.3453932746997,
+          "updated_last": 2072.999285518565,
+          "distinct_opponent_submissions": 40,
+          "opponent_initial_mean": 2087.1210634588165,
+          "opponent_minus_own_initial_mean": 8.746844252867081,
+          "actual_endpoint_change": -8.346107756134643,
+          "endpoint_minus_completed_delta_sum": 4.7140073400714755,
+          "win_delta_mean": 4.432355796573431,
+          "loss_delta_mean": -4.2293424013522305
+        },
+        "2026-10-04": {
+          "n": 53,
+          "wins": 28,
+          "losses": 25,
+          "ties": 0,
+          "delta_sum": 9.749446539802648,
+          "initial_first": 2072.999285518565,
+          "updated_last": 2078.9600611495707,
+          "distinct_opponent_submissions": 50,
+          "opponent_initial_mean": 2076.9811228973967,
+          "opponent_minus_own_initial_mean": -4.459260888762487,
+          "actual_endpoint_change": 5.9607756310056175,
+          "endpoint_minus_completed_delta_sum": -3.7886709087970303,
+          "win_delta_mean": 4.252358199209782,
+          "loss_delta_mean": -4.37266332152285
+        },
+        "2026-10-05": {
+          "n": 46,
+          "wins": 20,
+          "losses": 26,
+          "ties": 0,
+          "delta_sum": -33.361281405846285,
+          "initial_first": 2078.9600611495707,
+          "updated_last": 2045.5987797437244,
+          "distinct_opponent_submissions": 46,
+          "opponent_initial_mean": 2041.1736519005299,
+          "opponent_minus_own_initial_mean": -8.403469671266238,
+          "actual_endpoint_change": -33.361281405846285,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.161105161772605,
+          "loss_delta_mean": -4.48397633235763
+        },
+        "2026-10-06": {
+          "n": 51,
+          "wins": 21,
+          "losses": 30,
+          "ties": 0,
+          "delta_sum": -36.74271750396247,
+          "initial_first": 2045.5987797437244,
+          "updated_last": 2008.856062239762,
+          "distinct_opponent_submissions": 49,
+          "opponent_initial_mean": 2041.2848739875799,
+          "opponent_minus_own_initial_mean": 4.39973066464507,
+          "actual_endpoint_change": -36.74271750396247,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.3228228081304785,
+          "loss_delta_mean": -4.250733215823417
+        },
+        "2026-10-07": {
+          "n": 54,
+          "wins": 28,
+          "losses": 26,
+          "ties": 0,
+          "delta_sum": 2.281245095706936,
+          "initial_first": 2008.856062239762,
+          "updated_last": 2011.137307335469,
+          "distinct_opponent_submissions": 54,
+          "opponent_initial_mean": 1994.6360214558583,
+          "opponent_minus_own_initial_mean": -8.217066894253831,
+          "actual_endpoint_change": 2.281245095706936,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.205620406612907,
+          "loss_delta_mean": -4.441389472671324
+        },
+        "2026-10-08": {
+          "n": 6,
+          "wins": 4,
+          "losses": 2,
+          "ties": 0,
+          "delta_sum": 9.566066520646928,
+          "initial_first": 2011.137307335469,
+          "updated_last": 2020.7033738561158,
+          "distinct_opponent_submissions": 6,
+          "opponent_initial_mean": 2022.184413689276,
+          "opponent_minus_own_initial_mean": 6.690397180935217,
+          "actual_endpoint_change": 9.566066520646928,
+          "endpoint_minus_completed_delta_sum": 0.0,
+          "win_delta_mean": 4.414405918545299,
+          "loss_delta_mean": -4.045778576767134
+        }
+      },
+      "opponent_score_bands": {
+        "1800-1900": {
+          "n": 2,
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "delta_sum": 5.559124454087623,
+          "initial_first": 1980.5570865283178,
+          "updated_last": 1995.5126762207342,
+          "distinct_opponent_submissions": 2,
+          "opponent_initial_mean": 1870.5071597897663,
+          "opponent_minus_own_initial_mean": -116.00603208444556
+        },
+        "1900-2000": {
+          "n": 56,
+          "wins": 37,
+          "losses": 19,
+          "ties": 0,
+          "delta_sum": 34.253141143695075,
+          "initial_first": 2069.563022493244,
+          "updated_last": 2020.7033738561158,
+          "distinct_opponent_submissions": 56,
+          "opponent_initial_mean": 1968.6050397020144,
+          "opponent_minus_own_initial_mean": -52.24767566563484
+        },
+        "2000-2100": {
+          "n": 198,
+          "wins": 96,
+          "losses": 102,
+          "ties": 0,
+          "delta_sum": -67.58932706287169,
+          "initial_first": 2153.4310253249514,
+          "updated_last": 2017.0219236920489,
+          "distinct_opponent_submissions": 151,
+          "opponent_initial_mean": 2050.187712900618,
+          "opponent_minus_own_initial_mean": -12.653614996415833
+        },
+        "2100-2200": {
+          "n": 85,
+          "wins": 26,
+          "losses": 59,
+          "ties": 0,
+          "delta_sum": -102.6762747892185,
+          "initial_first": 2166.626375308766,
+          "updated_last": 2016.971788863405,
+          "distinct_opponent_submissions": 75,
+          "opponent_initial_mean": 2131.987542874409,
+          "opponent_minus_own_initial_mean": 33.764945890085784
+        },
+        "2200-2300": {
+          "n": 12,
+          "wins": 3,
+          "losses": 9,
+          "ties": 0,
+          "delta_sum": -11.026606450267082,
+          "initial_first": 2161.257980129416,
+          "updated_last": 2043.4751566962616,
+          "distinct_opponent_submissions": 12,
+          "opponent_initial_mean": 2222.814758982305,
+          "opponent_minus_own_initial_mean": 86.8877988869271
+        }
+      },
+      "relative_opponent_bands": {
+        "opp_above_by_50plus": {
+          "n": 47,
+          "wins": 14,
+          "losses": 33,
+          "ties": 0,
+          "delta_sum": -29.618808962925414,
+          "initial_first": 2161.257980129416,
+          "updated_last": 2016.971788863405,
+          "distinct_opponent_submissions": 44,
+          "opponent_initial_mean": 2142.4647895867233,
+          "opponent_minus_own_initial_mean": 75.45119288664857
+        },
+        "within_50": {
+          "n": 245,
+          "wins": 110,
+          "losses": 135,
+          "ties": 0,
+          "delta_sum": -122.48864120881285,
+          "initial_first": 2166.626375308766,
+          "updated_last": 2017.0219236920489,
+          "distinct_opponent_submissions": 189,
+          "opponent_initial_mean": 2063.385908691844,
+          "opponent_minus_own_initial_mean": -2.5490463123068987
+        },
+        "opp_below_by_50plus": {
+          "n": 61,
+          "wins": 40,
+          "losses": 21,
+          "ties": 0,
+          "delta_sum": 10.627507467163696,
+          "initial_first": 2153.4310253249514,
+          "updated_last": 2020.7033738561158,
+          "distinct_opponent_submissions": 55,
+          "opponent_initial_mean": 1993.2358886762179,
+          "opponent_minus_own_initial_mean": -76.59530168183036
+        }
+      },
+      "shared_opponent_submissions_rows": {
+        "n": 157,
+        "wins": 72,
+        "losses": 85,
+        "ties": 0,
+        "delta_sum": -64.95963039932735,
+        "initial_first": 2155.4101617361966,
+        "updated_last": 2017.0219236920489,
+        "distinct_opponent_submissions": 111,
+        "opponent_initial_mean": 2068.543128651544,
+        "opponent_minus_own_initial_mean": -2.4497738029912366
+      },
+      "scored_noncompleted_rows": [
+        {
+          "id": 117503997,
+          "endTime": "2026-10-03T18:30:26.806942700Z",
+          "initial": 2064.9565631498617,
+          "updated": 2069.670570489933,
+          "delta": 4.7140073400714755,
+          "outcome": "W",
+          "state": "ERRORED"
+        }
+      ],
+      "rating_metadata_fork_cases": [
+        {
+          "chain_difference": -3.7886709087970303,
+          "rows": [
+            {
+              "id": 118041773,
+              "endTime": "2026-10-04T19:23:36.251907600Z",
+              "initial": 2096.792633303877,
+              "updated": 2100.5813042126742,
+              "delta": 3.7886709087970303,
+              "outcome": "W"
+            },
+            {
+              "id": 118041810,
+              "endTime": "2026-10-04T19:23:36.438Z",
+              "initial": 2096.792633303877,
+              "updated": 2092.2575264651955,
+              "delta": -4.535106838681713,
+              "outcome": "L"
+            },
+            {
+              "id": 118056564,
+              "endTime": "2026-10-04T20:09:10.343126Z",
+              "initial": 2092.2575264651955,
+              "updated": 2096.773647144629,
+              "delta": 4.516120679433698,
+              "outcome": "W"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

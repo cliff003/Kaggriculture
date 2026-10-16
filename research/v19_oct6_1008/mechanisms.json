@@ -1,0 +1,1066 @@
+{
+  "n": 51,
+  "negative_margin_cases": [
+    {
+      "id": 118920136,
+      "opponent": "BraydenPikachu",
+      "end": "2026-10-06T12:02:34.622359600Z",
+      "old_margin": -234.0,
+      "new_margin": -465.0,
+      "margin_change": -231.0,
+      "own_money_change": 244.0,
+      "opponent_money_change": 475.0,
+      "first_changed_step": 506,
+      "first_changed_day_zero_based": 21,
+      "first_changed_hour": 2,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 2,
+          "new": 5,
+          "delta": 3
+        },
+        "input_confirmed_hires": {
+          "old": 2,
+          "new": 5,
+          "delta": 3
+        },
+        "input_purchase_requests": {
+          "old": 13,
+          "new": 30,
+          "delta": 17
+        },
+        "input_application_requests": {
+          "old": 12,
+          "new": 29,
+          "delta": 17
+        },
+        "input_confirmed_applications": {
+          "old": 12,
+          "new": 29,
+          "delta": 17
+        }
+      },
+      "first_old_market": [
+        [
+          "SELL",
+          "WHEAT",
+          5
+        ]
+      ],
+      "first_new_market": [
+        [
+          "SELL",
+          "WHEAT",
+          5
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          6
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 118920439,
+      "opponent": "Blu3s",
+      "end": "2026-10-06T12:03:21.983168100Z",
+      "old_margin": -7191.0,
+      "new_margin": -7242.0,
+      "margin_change": -51.0,
+      "own_money_change": 374.0,
+      "opponent_money_change": 425.0,
+      "first_changed_step": 314,
+      "first_changed_day_zero_based": 13,
+      "first_changed_hour": 2,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 5,
+          "new": 11,
+          "delta": 6
+        },
+        "input_confirmed_hires": {
+          "old": 5,
+          "new": 11,
+          "delta": 6
+        },
+        "input_purchase_requests": {
+          "old": 33,
+          "new": 71,
+          "delta": 38
+        },
+        "input_application_requests": {
+          "old": 33,
+          "new": 71,
+          "delta": 38
+        },
+        "input_confirmed_applications": {
+          "old": 33,
+          "new": 71,
+          "delta": 38
+        }
+      },
+      "first_old_market": [],
+      "first_new_market": [
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          7
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 119055947,
+      "opponent": "fufufukakaka",
+      "end": "2026-10-06T18:29:53.321251Z",
+      "old_margin": -4129.0,
+      "new_margin": -4410.0,
+      "margin_change": -281.0,
+      "own_money_change": 306.0,
+      "opponent_money_change": 587.0,
+      "first_changed_step": 314,
+      "first_changed_day_zero_based": 13,
+      "first_changed_hour": 2,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 6,
+          "new": 13,
+          "delta": 7
+        },
+        "input_confirmed_hires": {
+          "old": 6,
+          "new": 13,
+          "delta": 7
+        },
+        "input_purchase_requests": {
+          "old": 37,
+          "new": 75,
+          "delta": 38
+        },
+        "input_application_requests": {
+          "old": 36,
+          "new": 74,
+          "delta": 38
+        },
+        "input_confirmed_applications": {
+          "old": 36,
+          "new": 74,
+          "delta": 38
+        }
+      },
+      "first_old_market": [
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ],
+      "first_new_market": [
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          6
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    }
+  ],
+  "positive_margin_cases": [
+    {
+      "id": 118751611,
+      "opponent": "Shangshang Zhang",
+      "end": "2026-10-06T04:12:16.431600500Z",
+      "old_margin": -6728.0,
+      "new_margin": -5357.0,
+      "margin_change": 1371.0,
+      "own_money_change": 1046.0,
+      "opponent_money_change": -325.0,
+      "first_changed_step": 314,
+      "first_changed_day_zero_based": 13,
+      "first_changed_hour": 2,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 4,
+          "new": 12,
+          "delta": 8
+        },
+        "input_confirmed_hires": {
+          "old": 4,
+          "new": 12,
+          "delta": 8
+        },
+        "input_purchase_requests": {
+          "old": 28,
+          "new": 75,
+          "delta": 47
+        },
+        "input_application_requests": {
+          "old": 27,
+          "new": 74,
+          "delta": 47
+        },
+        "input_confirmed_applications": {
+          "old": 27,
+          "new": 74,
+          "delta": 47
+        }
+      },
+      "first_old_market": [
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ],
+      "first_new_market": [
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          6
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    },
+    {
+      "id": 118780467,
+      "opponent": "Zenith Ye",
+      "end": "2026-10-06T05:31:41.724758900Z",
+      "old_margin": -761.0,
+      "new_margin": -124.0,
+      "margin_change": 637.0,
+      "own_money_change": 527.0,
+      "opponent_money_change": -110.0,
+      "first_changed_step": 458,
+      "first_changed_day_zero_based": 19,
+      "first_changed_hour": 2,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 1,
+          "new": 6,
+          "delta": 5
+        },
+        "input_confirmed_hires": {
+          "old": 1,
+          "new": 6,
+          "delta": 5
+        },
+        "input_purchase_requests": {
+          "old": 8,
+          "new": 41,
+          "delta": 33
+        },
+        "input_application_requests": {
+          "old": 7,
+          "new": 40,
+          "delta": 33
+        },
+        "input_confirmed_applications": {
+          "old": 7,
+          "new": 40,
+          "delta": 33
+        }
+      },
+      "first_old_market": [],
+      "first_new_market": [
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          7
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 118782285,
+      "opponent": "github/shepsci/kaggle-skill",
+      "end": "2026-10-06T05:38:36.910722Z",
+      "old_margin": 1502.0,
+      "new_margin": 9017.0,
+      "margin_change": 7515.0,
+      "own_money_change": 4744.0,
+      "opponent_money_change": -2771.0,
+      "first_changed_step": 578,
+      "first_changed_day_zero_based": 24,
+      "first_changed_hour": 2,
+      "enabled": false,
+      "input_counters": {},
+      "first_old_market": [
+        [],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          17
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "first_new_market": [
+        [],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          25
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 118813480,
+      "opponent": "Ilya Usmanov",
+      "end": "2026-10-06T07:07:20.464222700Z",
+      "old_margin": -7968.0,
+      "new_margin": -7582.0,
+      "margin_change": 386.0,
+      "own_money_change": 267.0,
+      "opponent_money_change": -119.0,
+      "first_changed_step": 337,
+      "first_changed_day_zero_based": 14,
+      "first_changed_hour": 1,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 1,
+          "new": 6,
+          "delta": 5
+        },
+        "input_confirmed_hires": {
+          "old": 1,
+          "new": 6,
+          "delta": 5
+        },
+        "input_purchase_requests": {
+          "old": 8,
+          "new": 42,
+          "delta": 34
+        },
+        "input_application_requests": {
+          "old": 7,
+          "new": 41,
+          "delta": 34
+        },
+        "input_confirmed_applications": {
+          "old": 7,
+          "new": 41,
+          "delta": 34
+        }
+      },
+      "first_old_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          66
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          2
+        ]
+      ],
+      "first_new_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          66
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 118843664,
+      "opponent": "spencersi123",
+      "end": "2026-10-06T08:28:49.300321600Z",
+      "old_margin": 6740.0,
+      "new_margin": 7575.0,
+      "margin_change": 835.0,
+      "own_money_change": 642.0,
+      "opponent_money_change": -193.0,
+      "first_changed_step": 337,
+      "first_changed_day_zero_based": 14,
+      "first_changed_hour": 1,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 0,
+          "new": 5,
+          "delta": 5
+        },
+        "input_confirmed_hires": {
+          "old": 0,
+          "new": 5,
+          "delta": 5
+        },
+        "input_purchase_requests": {
+          "old": 0,
+          "new": 34,
+          "delta": 34
+        },
+        "input_application_requests": {
+          "old": 0,
+          "new": 32,
+          "delta": 32
+        },
+        "input_confirmed_applications": {
+          "old": 0,
+          "new": 32,
+          "delta": 32
+        }
+      },
+      "first_old_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          66
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          2
+        ]
+      ],
+      "first_new_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          66
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 118902226,
+      "opponent": "atsu0905",
+      "end": "2026-10-06T11:12:35.047351900Z",
+      "old_margin": 432.0,
+      "new_margin": 1886.0,
+      "margin_change": 1454.0,
+      "own_money_change": 1010.0,
+      "opponent_money_change": -444.0,
+      "first_changed_step": 337,
+      "first_changed_day_zero_based": 14,
+      "first_changed_hour": 1,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 0,
+          "new": 8,
+          "delta": 8
+        },
+        "input_confirmed_hires": {
+          "old": 0,
+          "new": 8,
+          "delta": 8
+        },
+        "input_purchase_requests": {
+          "old": 0,
+          "new": 50,
+          "delta": 50
+        },
+        "input_application_requests": {
+          "old": 0,
+          "new": 49,
+          "delta": 49
+        },
+        "input_confirmed_applications": {
+          "old": 0,
+          "new": 49,
+          "delta": 49
+        }
+      },
+      "first_old_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          66
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          2
+        ]
+      ],
+      "first_new_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          66
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 118963617,
+      "opponent": "snappi",
+      "end": "2026-10-06T14:07:09.503649200Z",
+      "old_margin": -2945.0,
+      "new_margin": -2384.0,
+      "margin_change": 561.0,
+      "own_money_change": 509.0,
+      "opponent_money_change": -52.0,
+      "first_changed_step": 337,
+      "first_changed_day_zero_based": 14,
+      "first_changed_hour": 1,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 2,
+          "new": 8,
+          "delta": 6
+        },
+        "input_confirmed_hires": {
+          "old": 2,
+          "new": 8,
+          "delta": 6
+        },
+        "input_purchase_requests": {
+          "old": 13,
+          "new": 50,
+          "delta": 37
+        },
+        "input_application_requests": {
+          "old": 13,
+          "new": 49,
+          "delta": 36
+        },
+        "input_confirmed_applications": {
+          "old": 13,
+          "new": 49,
+          "delta": 36
+        }
+      },
+      "first_old_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          63
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          2
+        ]
+      ],
+      "first_new_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          63
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          8
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 118978589,
+      "opponent": "LitvinKA",
+      "end": "2026-10-06T14:48:36.360749800Z",
+      "old_margin": -9814.0,
+      "new_margin": -9654.0,
+      "margin_change": 160.0,
+      "own_money_change": 250.0,
+      "opponent_money_change": 90.0,
+      "first_changed_step": 458,
+      "first_changed_day_zero_based": 19,
+      "first_changed_hour": 2,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 1,
+          "new": 5,
+          "delta": 4
+        },
+        "input_confirmed_hires": {
+          "old": 1,
+          "new": 5,
+          "delta": 4
+        },
+        "input_purchase_requests": {
+          "old": 6,
+          "new": 30,
+          "delta": 24
+        },
+        "input_application_requests": {
+          "old": 6,
+          "new": 30,
+          "delta": 24
+        },
+        "input_confirmed_applications": {
+          "old": 6,
+          "new": 30,
+          "delta": 24
+        }
+      },
+      "first_old_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ]
+      ],
+      "first_new_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          7
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 119040662,
+      "opponent": "Crazy Spirits",
+      "end": "2026-10-06T17:42:00.566999400Z",
+      "old_margin": 1037.0,
+      "new_margin": 5314.0,
+      "margin_change": 4277.0,
+      "own_money_change": 2577.0,
+      "opponent_money_change": -1700.0,
+      "first_changed_step": 578,
+      "first_changed_day_zero_based": 24,
+      "first_changed_hour": 2,
+      "enabled": false,
+      "input_counters": {},
+      "first_old_market": [
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "first_new_market": [
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          26
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 119079135,
+      "opponent": "Nguyễn Trần Thanh Bình",
+      "end": "2026-10-06T19:36:22.785384200Z",
+      "old_margin": -1415.0,
+      "new_margin": -264.0,
+      "margin_change": 1151.0,
+      "own_money_change": 680.0,
+      "opponent_money_change": -471.0,
+      "first_changed_step": 314,
+      "first_changed_day_zero_based": 13,
+      "first_changed_hour": 2,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 3,
+          "new": 9,
+          "delta": 6
+        },
+        "input_confirmed_hires": {
+          "old": 3,
+          "new": 9,
+          "delta": 6
+        },
+        "input_purchase_requests": {
+          "old": 22,
+          "new": 56,
+          "delta": 34
+        },
+        "input_application_requests": {
+          "old": 21,
+          "new": 55,
+          "delta": 34
+        },
+        "input_confirmed_applications": {
+          "old": 21,
+          "new": 55,
+          "delta": 34
+        }
+      },
+      "first_old_market": [
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ],
+      "first_new_market": [
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          6
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    },
+    {
+      "id": 119163961,
+      "opponent": "RangerSnow",
+      "end": "2026-10-06T23:49:17.147759100Z",
+      "old_margin": -9631.0,
+      "new_margin": -9224.0,
+      "margin_change": 407.0,
+      "own_money_change": -348.0,
+      "opponent_money_change": -755.0,
+      "first_changed_step": 579,
+      "first_changed_day_zero_based": 24,
+      "first_changed_hour": 3,
+      "enabled": false,
+      "input_counters": {},
+      "first_old_market": [
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "first_new_market": [
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          24
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 119224681,
+      "opponent": "AkiraOnojp",
+      "end": "2026-10-07T02:39:50.339065300Z",
+      "old_margin": 20033.0,
+      "new_margin": 20394.0,
+      "margin_change": 361.0,
+      "own_money_change": 223.0,
+      "opponent_money_change": -138.0,
+      "first_changed_step": 530,
+      "first_changed_day_zero_based": 22,
+      "first_changed_hour": 2,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 0,
+          "new": 4,
+          "delta": 4
+        },
+        "input_confirmed_hires": {
+          "old": 0,
+          "new": 4,
+          "delta": 4
+        },
+        "input_purchase_requests": {
+          "old": 0,
+          "new": 28,
+          "delta": 28
+        },
+        "input_application_requests": {
+          "old": 0,
+          "new": 27,
+          "delta": 27
+        },
+        "input_confirmed_applications": {
+          "old": 0,
+          "new": 27,
+          "delta": 27
+        }
+      },
+      "first_old_market": [],
+      "first_new_market": [
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          7
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 119237518,
+      "opponent": "yefenfei",
+      "end": "2026-10-07T03:13:02.560086600Z",
+      "old_margin": 4214.0,
+      "new_margin": 9928.0,
+      "margin_change": 5714.0,
+      "own_money_change": 3426.0,
+      "opponent_money_change": -2288.0,
+      "first_changed_step": 579,
+      "first_changed_day_zero_based": 24,
+      "first_changed_hour": 3,
+      "enabled": false,
+      "input_counters": {},
+      "first_old_market": [
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "first_new_market": [
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          24
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "id": 119251797,
+      "opponent": "haru0707",
+      "end": "2026-10-07T03:52:14.727840100Z",
+      "old_margin": -1070.0,
+      "new_margin": -901.0,
+      "margin_change": 169.0,
+      "own_money_change": 558.0,
+      "opponent_money_change": 389.0,
+      "first_changed_step": 338,
+      "first_changed_day_zero_based": 14,
+      "first_changed_hour": 2,
+      "enabled": true,
+      "input_counters": {
+        "input_hire_requests": {
+          "old": 3,
+          "new": 9,
+          "delta": 6
+        },
+        "input_confirmed_hires": {
+          "old": 3,
+          "new": 9,
+          "delta": 6
+        },
+        "input_purchase_requests": {
+          "old": 21,
+          "new": 62,
+          "delta": 41
+        },
+        "input_application_requests": {
+          "old": 19,
+          "new": 59,
+          "delta": 40
+        },
+        "input_confirmed_applications": {
+          "old": 19,
+          "new": 59,
+          "delta": 40
+        }
+      },
+      "first_old_market": [
+        [
+          "SELL",
+          "WOOL",
+          8
+        ]
+      ],
+      "first_new_market": [
+        [],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          7
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    }
+  ],
+  "changed_but_equal_margin": [],
+  "adaptive_enabled_n": 13,
+  "caveat": "Effects use unchanged recorded rival actions. Rival policy does not adapt, but market/world outcomes can still change; no per-product attribution was audited."
+}

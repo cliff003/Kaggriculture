@@ -1,0 +1,460 @@
+{
+  "checked_utc": "2026-10-08T07:01:39.064222+00:00",
+  "active_submission_ids": [
+    56649860,
+    56713491
+  ],
+  "official_submissions": [
+    {
+      "id": 56713491,
+      "status": "COMPLETE",
+      "public_score": "2020.7"
+    },
+    {
+      "id": 56649860,
+      "status": "COMPLETE",
+      "public_score": "2065.8"
+    }
+  ],
+  "agents": {
+    "56649860": {
+      "all": {
+        "n": 698,
+        "wins": 327,
+        "losses": 371,
+        "ties": 0,
+        "mean_opponent_initial_score": 2167.8
+      },
+      "last30": {
+        "n": 30,
+        "wins": 16,
+        "losses": 14,
+        "ties": 0,
+        "mean_opponent_initial_score": 2074.4
+      },
+      "last50": {
+        "n": 50,
+        "wins": 26,
+        "losses": 24,
+        "ties": 0,
+        "mean_opponent_initial_score": 2059.9
+      },
+      "last100": {
+        "n": 100,
+        "wins": 54,
+        "losses": 46,
+        "ties": 0,
+        "mean_opponent_initial_score": 2050.6
+      },
+      "daily": [
+        {
+          "date_ny": "2026-09-28",
+          "n": 95,
+          "wins": 63,
+          "losses": 32,
+          "ties": 0,
+          "mean_opponent_initial_score": 2207.5,
+          "last_score": 2430.2
+        },
+        {
+          "date_ny": "2026-09-29",
+          "n": 137,
+          "wins": 55,
+          "losses": 82,
+          "ties": 0,
+          "mean_opponent_initial_score": 2377.3,
+          "last_score": 2312.8
+        },
+        {
+          "date_ny": "2026-09-30",
+          "n": 104,
+          "wins": 35,
+          "losses": 69,
+          "ties": 0,
+          "mean_opponent_initial_score": 2233.1,
+          "last_score": 2160.2
+        },
+        {
+          "date_ny": "2026-10-01",
+          "n": 45,
+          "wins": 17,
+          "losses": 28,
+          "ties": 0,
+          "mean_opponent_initial_score": 2136.1,
+          "last_score": 2110.5
+        },
+        {
+          "date_ny": "2026-10-02",
+          "n": 51,
+          "wins": 20,
+          "losses": 31,
+          "ties": 0,
+          "mean_opponent_initial_score": 2088.5,
+          "last_score": 2056.6
+        },
+        {
+          "date_ny": "2026-10-03",
+          "n": 50,
+          "wins": 27,
+          "losses": 23,
+          "ties": 0,
+          "mean_opponent_initial_score": 2020.8,
+          "last_score": 2059.9
+        },
+        {
+          "date_ny": "2026-10-04",
+          "n": 46,
+          "wins": 23,
+          "losses": 23,
+          "ties": 0,
+          "mean_opponent_initial_score": 2045.1,
+          "last_score": 2053.2
+        },
+        {
+          "date_ny": "2026-10-05",
+          "n": 52,
+          "wins": 25,
+          "losses": 27,
+          "ties": 0,
+          "mean_opponent_initial_score": 2049.4,
+          "last_score": 2040.5
+        },
+        {
+          "date_ny": "2026-10-06",
+          "n": 51,
+          "wins": 27,
+          "losses": 24,
+          "ties": 0,
+          "mean_opponent_initial_score": 2020.0,
+          "last_score": 2042.6
+        },
+        {
+          "date_ny": "2026-10-07",
+          "n": 57,
+          "wins": 30,
+          "losses": 27,
+          "ties": 0,
+          "mean_opponent_initial_score": 2064.9,
+          "last_score": 2068.2
+        },
+        {
+          "date_ny": "2026-10-08",
+          "n": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "mean_opponent_initial_score": 2047.6,
+          "last_score": 2065.8
+        }
+      ],
+      "postdeadline": {
+        "n": 366,
+        "wins": 175,
+        "losses": 191,
+        "ties": 0,
+        "mean_opponent_initial_score": 2060.5
+      },
+      "latest": {
+        "id": 119820128,
+        "end_utc": "2026-10-08T06:48:56.339766+00:00",
+        "end_ny": "2026-10-08T02:48:56.339766-04:00",
+        "day_ny": "2026-10-08",
+        "margin": 7061,
+        "score": 2065.8075187845634,
+        "opponent_score": 2034.5354443931078,
+        "opponent_team": "Yoshiki_Nakamura",
+        "opponent_submission": 56720212
+      },
+      "last100_opponent_score_bands": [
+        {
+          "opponent_score_band": [
+            0,
+            2000
+          ],
+          "n": 16,
+          "wins": 14,
+          "losses": 2,
+          "ties": 0,
+          "mean_opponent_initial_score": 1970.3
+        },
+        {
+          "opponent_score_band": [
+            2000,
+            2057
+          ],
+          "n": 46,
+          "wins": 27,
+          "losses": 19,
+          "ties": 0,
+          "mean_opponent_initial_score": 2030.7
+        },
+        {
+          "opponent_score_band": [
+            2057,
+            2100
+          ],
+          "n": 17,
+          "wins": 7,
+          "losses": 10,
+          "ties": 0,
+          "mean_opponent_initial_score": 2076.9
+        },
+        {
+          "opponent_score_band": [
+            2100,
+            null
+          ],
+          "n": 21,
+          "wins": 6,
+          "losses": 15,
+          "ties": 0,
+          "mean_opponent_initial_score": 2134.2
+        }
+      ]
+    },
+    "56713491": {
+      "all": {
+        "n": 439,
+        "wins": 215,
+        "losses": 224,
+        "ties": 0,
+        "mean_opponent_initial_score": 2048.1
+      },
+      "last30": {
+        "n": 30,
+        "wins": 16,
+        "losses": 14,
+        "ties": 0,
+        "mean_opponent_initial_score": 1999.0
+      },
+      "last50": {
+        "n": 50,
+        "wins": 30,
+        "losses": 20,
+        "ties": 0,
+        "mean_opponent_initial_score": 1995.1
+      },
+      "last100": {
+        "n": 100,
+        "wins": 46,
+        "losses": 54,
+        "ties": 0,
+        "mean_opponent_initial_score": 2012.6
+      },
+      "daily": [
+        {
+          "date_ny": "2026-09-30",
+          "n": 92,
+          "wins": 53,
+          "losses": 39,
+          "ties": 0,
+          "mean_opponent_initial_score": 2005.5,
+          "last_score": 2156.5
+        },
+        {
+          "date_ny": "2026-10-01",
+          "n": 45,
+          "wins": 18,
+          "losses": 27,
+          "ties": 0,
+          "mean_opponent_initial_score": 2131.5,
+          "last_score": 2109.5
+        },
+        {
+          "date_ny": "2026-10-02",
+          "n": 50,
+          "wins": 24,
+          "losses": 26,
+          "ties": 0,
+          "mean_opponent_initial_score": 2062.1,
+          "last_score": 2081.3
+        },
+        {
+          "date_ny": "2026-10-03",
+          "n": 42,
+          "wins": 19,
+          "losses": 23,
+          "ties": 0,
+          "mean_opponent_initial_score": 2087.1,
+          "last_score": 2073.0
+        },
+        {
+          "date_ny": "2026-10-04",
+          "n": 53,
+          "wins": 28,
+          "losses": 25,
+          "ties": 0,
+          "mean_opponent_initial_score": 2077.0,
+          "last_score": 2079.0
+        },
+        {
+          "date_ny": "2026-10-05",
+          "n": 46,
+          "wins": 20,
+          "losses": 26,
+          "ties": 0,
+          "mean_opponent_initial_score": 2041.2,
+          "last_score": 2045.6
+        },
+        {
+          "date_ny": "2026-10-06",
+          "n": 51,
+          "wins": 21,
+          "losses": 30,
+          "ties": 0,
+          "mean_opponent_initial_score": 2041.3,
+          "last_score": 2008.9
+        },
+        {
+          "date_ny": "2026-10-07",
+          "n": 54,
+          "wins": 28,
+          "losses": 26,
+          "ties": 0,
+          "mean_opponent_initial_score": 1994.6,
+          "last_score": 2011.1
+        },
+        {
+          "date_ny": "2026-10-08",
+          "n": 6,
+          "wins": 4,
+          "losses": 2,
+          "ties": 0,
+          "mean_opponent_initial_score": 2022.2,
+          "last_score": 2020.7
+        }
+      ],
+      "postdeadline": {
+        "n": 353,
+        "wins": 164,
+        "losses": 189,
+        "ties": 0,
+        "mean_opponent_initial_score": 2061.8
+      },
+      "latest": {
+        "id": 119819756,
+        "end_utc": "2026-10-08T06:42:09.634565+00:00",
+        "end_ny": "2026-10-08T02:42:09.634565-04:00",
+        "day_ny": "2026-10-08",
+        "margin": 6101,
+        "score": 2020.7033738561158,
+        "opponent_score": 1965.6104191405516,
+        "opponent_team": "kay.liechtenstein",
+        "opponent_submission": 56720407
+      },
+      "last100_opponent_score_bands": [
+        {
+          "opponent_score_band": [
+            0,
+            2000
+          ],
+          "n": 42,
+          "wins": 26,
+          "losses": 16,
+          "ties": 0,
+          "mean_opponent_initial_score": 1961.3
+        },
+        {
+          "opponent_score_band": [
+            2000,
+            2057
+          ],
+          "n": 36,
+          "wins": 12,
+          "losses": 24,
+          "ties": 0,
+          "mean_opponent_initial_score": 2026.0
+        },
+        {
+          "opponent_score_band": [
+            2057,
+            2100
+          ],
+          "n": 15,
+          "wins": 6,
+          "losses": 9,
+          "ties": 0,
+          "mean_opponent_initial_score": 2074.4
+        },
+        {
+          "opponent_score_band": [
+            2100,
+            null
+          ],
+          "n": 7,
+          "wins": 2,
+          "losses": 5,
+          "ties": 0,
+          "mean_opponent_initial_score": 2118.5
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "filename": "kaggriculture-publicleaderboard-2026-10-08T06:58:26.csv",
+    "time_utc": "2026-10-08T06:58:26+00:00",
+    "time_ny": "2026-10-08T02:58:26-04:00",
+    "teams": 10148,
+    "rank": 490,
+    "score": 2065.8,
+    "cuts": {
+      "gold": {
+        "rank": 30,
+        "score": 2734.3,
+        "buffer_score": -668.5,
+        "buffer_rank": -460
+      },
+      "silver": {
+        "rank": 507,
+        "score": 2057.0,
+        "buffer_score": 8.8,
+        "buffer_rank": 17
+      },
+      "bronze": {
+        "rank": 1014,
+        "score": 1816.9,
+        "buffer_score": 248.9,
+        "buffer_rank": 524
+      }
+    }
+  },
+  "since_oct1": {
+    "previous_time_utc": "2026-10-01T15:02:41+00:00",
+    "elapsed_days": 6.6637,
+    "rank_change": 66,
+    "own_score_change": -78.3,
+    "silver_line_change": -8.4,
+    "silver_buffer_change": -69.9,
+    "silver_buffer_shrink_per_day": 10.49,
+    "silver_days_to_zero_if_full_week_rate_continues": 0.84
+  },
+  "remaining_week_sensitivity": {
+    "horizon_days_assumed": 7,
+    "silver_max_average_daily_shrink": 1.26,
+    "silver_buffer_after7_if_daily_shrink": [
+      {
+        "daily_shrink": 0,
+        "buffer": 8.8
+      },
+      {
+        "daily_shrink": 1,
+        "buffer": 1.8
+      },
+      {
+        "daily_shrink": 2,
+        "buffer": -5.2
+      },
+      {
+        "daily_shrink": 5,
+        "buffer": -26.2
+      }
+    ]
+  },
+  "limits": [
+    "No continuous leaderboard snapshots from Oct2-7; cannot infer the silver margin trend in the last two days.",
+    "Current ratings and current medal cutoffs are provisional, not the final Bradley-Terry ranking.",
+    "Opponent score bands use their score at game time, not a fixed current strength.",
+    "No calibrated medal probability; linear margin scenarios are conditional, not predictions.",
+    "Team count is 98 lower than Oct1; cause unknown, no disqualification claim."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "engine": "1.32.7",
+  "forced_shops": true,
+  "sha256": {
+    "submissions/V12_AventadorSVJ/main.py": "08a0d374aedd20641cc91c1683b5560a0d56f19dbe4be245dd117c95bbf3cd57",
+    "research/rescue_0930/candidates/input_adaptive94_combined_v1/main.py": "3b6a78997364b12f0cca080ff657c31acd1cd087bcfb5f8362e41da69a137f87"
+  },
+  "archive1528": {
+    "n": 1528,
+    "baseline_wins": 1239,
+    "candidate_wins": 1248,
+    "flips_up": [
+      113918675,
+      114644301,
+      114902771,
+      114912503,
+      114927308,
+      115002708,
+      115044027,
+      115131957,
+      115286746
+    ],
+    "flips_down": [],
+    "mean_margin_change": 266.2,
+    "changed": 356,
+    "not_done": 0
+  },
+  "latest20": {
+    "n": 20,
+    "baseline_wins": 6,
+    "candidate_wins": 7,
+    "flips_up": [
+      115785512
+    ],
+    "flips_down": [],
+    "mean_margin_change": 302.55,
+    "changed": 8,
+    "not_done": 0,
+    "max_step_seconds": 0.16363204100343864,
+    "agent_errors": 0
+  },
+  "holdout24": {
+    "n": 24,
+    "baseline_wins": 14,
+    "candidate_wins": 14,
+    "flips_up": [],
+    "flips_down": [],
+    "mean_margin_change": 193.79,
+    "changed": 7,
+    "not_done": 0,
+    "max_step_seconds": 0.09965408300195122,
+    "agent_errors": 0
+  },
+  "all_unique_replays": {
+    "n": 1572,
+    "baseline_wins": 1259,
+    "candidate_wins": 1269,
+    "flips_up": [
+      113918675,
+      114644301,
+      114902771,
+      114912503,
+      114927308,
+      115002708,
+      115044027,
+      115131957,
+      115286746,
+      115785512
+    ],
+    "flips_down": [],
+    "mean_margin_change": 265.56,
+    "changed": 371,
+    "not_done": 0
+  },
+  "recent300": {
+    "path": "research/rescue_0930/candidates/input_adaptive94_combined_v1/main.py",
+    "sha256": "3b6a78997364b12f0cca080ff657c31acd1cd087bcfb5f8362e41da69a137f87",
+    "n": 300,
+    "wins": 172,
+    "delta": 400.69,
+    "up": [
+      114902771,
+      114912503,
+      114927308,
+      115002708,
+      115044027,
+      115131957,
+      115286746
+    ],
+    "down": [],
+    "bad": []
+  },
+  "reactive312": {
+    "n": 312,
+    "baseline_wins": 306,
+    "candidate_wins": 306,
+    "flips_up": [],
+    "flips_down": [],
+    "mean_margin_change": 1.06,
+    "changed": 1,
+    "not_done": 0
+  },
+  "reactive_public48": {
+    "n": 48,
+    "baseline_wins": 46,
+    "candidate_wins": 46,
+    "flips_up": [],
+    "flips_down": [],
+    "mean_margin_change": 98.5,
+    "changed": 2,
+    "not_done": 0
+  },
+  "physical112": {
+    "n": 112,
+    "baseline_wins": 98,
+    "candidate_wins": 98,
+    "flips_up": [],
+    "flips_down": [],
+    "mean_margin_change": 0.0,
+    "changed": 0,
+    "not_done": 0
+  },
+  "official_environment": "status ['DONE', 'DONE'] reward [69422.0, 69422.0] steps 720 wall 10.5",
+  "passes_release_gate": true
+}

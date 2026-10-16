@@ -1,0 +1,46 @@
+{
+ "game": 113640990,
+ "step": 492,
+ "day": 20,
+ "hour": 12,
+ "orders": [
+  [
+   "SELL",
+   "MILK",
+   2
+  ],
+  [
+   "SELL",
+   "WOOL",
+   1
+  ],
+  [
+   "BUY_SEED",
+   "WHEAT",
+   1
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+   "BUY_PRODUCT",
+   "WHEAT",
+   95
+  ]
+ ],
+ "next": [
+  [
+   "SELL",
+   "STRAWBERRY",
+   2
+  ],
+  [
+   "SELL",
+   "WHEAT",
+   95
+  ]
+ ]
+}

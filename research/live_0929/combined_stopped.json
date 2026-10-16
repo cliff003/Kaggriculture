@@ -1,0 +1,6 @@
+{
+  "status": "rejected_pending_redesign",
+  "reason": "Reactive tomato panel lost one formerly won game (1503 to -14); full replay stopped after this required gate failed.",
+  "completed_replays": 558,
+  "planned_replays": 1480
+}

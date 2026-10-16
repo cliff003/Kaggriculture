@@ -1,0 +1,123 @@
+{
+  "checked_utc": "2026-10-08T06:58:50.288889+00:00",
+  "checked_new_york": "2026-10-08T02:58:50.288889-04:00",
+  "scope": {
+    "recent_run_list_count": 100,
+    "historical_code_score_list_count": 30,
+    "downloaded_sources": 5,
+    "executed_third_party_code": false
+  },
+  "metadata_findings": {
+    "runs_after_2026_10_01": [
+      "kirderf/kaggriculture-leaderboard-viewer",
+      "destbreso/x-ray-your-agent",
+      "georgymamarin/kaggriculture-what-2600-farms-do-differently",
+      "destbreso/how-reliable-is-the-public-leaderboard"
+    ],
+    "other_list_membership_change": "evgendvorkin/kaggriculture is dated 9/30 and is not a post-deadline update.",
+    "top30_version_changes": 0,
+    "score_caution": "Code-page scores are historical bestPublicScore, not current leaderboard skill."
+  },
+  "conclusion": "Visible updates mainly refresh diagnostics and rankings. No verified new competitive-agent breakthrough appears in this bounded scan. Silver assessment should use the official live board and actual per-episode trend, not these notebooks' generic retention formula or historical Code-page scores.",
+  "notebooks": [
+    {
+      "ref": "georgymamarin/kaggriculture-what-2600-farms-do-differently",
+      "takeaways": [
+        "Use fresh leader and middle cohorts from the same time window; compare production, labor, land timing and selling prices.",
+        "Prefer within-episode margin to raw final bank, and separate shop worlds and rival strength bands.",
+        "The author warns that crawler coverage changes, a single best game, shared worlds and serial matchmaking can bias conclusions."
+      ],
+      "boundaries": [
+        "All cell source is identical to the 10/1 saved source; the 10/7 run is a refresh, not verified new strategy code.",
+        "Current rendered numerical tables were not captured by kernels pull; no new numerical production advantage is claimed."
+      ],
+      "url": "https://www.kaggle.com/code/georgymamarin/kaggriculture-what-2600-farms-do-differently",
+      "last_run_new_york": "2026-10-07T17:58:59.790000-04:00",
+      "notebook_sha256": "7f15418eeac390417219f9e061b1ad28acb5c54c53eecbfe551624724782991d",
+      "cell_source_sha256": "fb414031b9a380b5602aeb04cffe57237889db963e2e42989ec5e1ed39fa27e6",
+      "previous_source": "research/notebook_1001_0144/farm2600/kaggriculture-what-2600-farms-do-differently.ipynb",
+      "same_cell_source_as_previous": true,
+      "same_notebook_bytes_as_previous": true
+    },
+    {
+      "ref": "destbreso/x-ray-your-agent",
+      "takeaways": [
+        "Measure rating convergence by drift per played episode, delta sign reversals and episode count, rather than a per-hour slope.",
+        "Distinguish global variation from variation within the same two-shop world so a shop router is not mislabeled as a fully reactive policy.",
+        "Separate plan agreement from market agreement, then inspect crop output, hired labor, idle time, unsold inventory and market timing against actual rivals."
+      ],
+      "boundaries": [
+        "All cell source is identical to the 10/1 saved source; the 10/7 run is a refresh, not verified new strategy code.",
+        "Some macro reference numbers in the text are explicitly from 8/30 or 9/10. They are not current top-agent targets.",
+        "The one-point-per-episode convergence threshold is the author's diagnostic choice, not a medal guarantee.",
+        "Matching replay actions is not proof of private source-code disclosure; the author notes deterministic early turns."
+      ],
+      "url": "https://www.kaggle.com/code/destbreso/x-ray-your-agent",
+      "last_run_new_york": "2026-10-07T18:49:15.723000-04:00",
+      "notebook_sha256": "3ca5da4f9d0b3be8f6e141e92be24f38a36a69e52067e9a850dc2e098b66f2df",
+      "cell_source_sha256": "9d0213e99af80c69cc2ff51c3726084088de5fbb6c6401034718283e65ad3d0b",
+      "previous_source": "research/notebook_1001_0144/xray/x-ray-your-agent.ipynb",
+      "same_cell_source_as_previous": true,
+      "same_notebook_bytes_as_previous": true
+    },
+    {
+      "ref": "destbreso/how-reliable-is-the-public-leaderboard",
+      "takeaways": [
+        "Dense score bands magnify rank changes; aggregate board reliability does not make a medal-edge position safe.",
+        "The author expressly distinguishes band-level retention frequencies from the probability of an individual team."
+      ],
+      "boundaries": [
+        "This analyzes 327 selected historical Kaggle competitions, not a fitted Kaggriculture final-ranking model.",
+        "It cannot provide our individual silver probability, and some corrections require the final private board.",
+        "The article flags episode-based agent competitions whose public/private boards are identical as a different case. That general remark does not verify Kaggriculture final evaluation rules."
+      ],
+      "url": "https://www.kaggle.com/code/destbreso/how-reliable-is-the-public-leaderboard",
+      "last_run_new_york": "2026-10-07T09:28:34.567000-04:00",
+      "notebook_sha256": "3c5d6eaae2b088ae83bc0e199a6e1b936ed78b8660554b521c96cc5814a186ab",
+      "cell_source_sha256": "3fe8170bdf963096704c089bf0fdb9312d7a738fd239add4afcc12d8b85ccb6f",
+      "previous_source": null,
+      "same_cell_source_as_previous": null,
+      "same_notebook_bytes_as_previous": null
+    },
+    {
+      "ref": "kirderf/kaggriculture-leaderboard-viewer",
+      "takeaways": [
+        "Display full-board snapshots, official medal boundaries, time in each medal zone, rank/score movement and locked-submission movement.",
+        "Track both the score gap and rank gap to the silver boundary while agents continue playing."
+      ],
+      "boundaries": [
+        "This is a dashboard, not a new competitive agent.",
+        "The source contains no Bradley-Terry fitting, bootstrap or uncertainty calculation.",
+        "Its default watched team is Kirderf; our TeamId16908623 and submission IDs56649860/56713491 do not occur in source.",
+        "No existing rendered Team42 table or rank uncertainty result was verified. No tracker dataset was downloaded and no third-party code was executed."
+      ],
+      "url": "https://www.kaggle.com/code/kirderf/kaggriculture-leaderboard-viewer",
+      "last_run_new_york": "2026-10-08T02:09:11.003000-04:00",
+      "notebook_sha256": "cf25dcb7d281a5ced5fd6cf5be2a0608e2420dd0eb200607a1216e54c4463984",
+      "cell_source_sha256": "08f5573fe4b6f5c36f4fb15b9eee1b18d41629bdb0ad03584343b81ad897d459",
+      "previous_source": null,
+      "same_cell_source_as_previous": null,
+      "same_notebook_bytes_as_previous": null
+    },
+    {
+      "ref": "raykkretzschmar/kaggriculture-findings-from-zero-to-top-meta",
+      "takeaways": [
+        "Already public C94/C95 examples protect early feed purchases and advance a bounded portion of existing wheat/fertilizer sales while subtracting it from the next sale.",
+        "Use diverse opponents, both seats and frozen held-out seeds, and optimize wins rather than the cash size of already-won matches."
+      ],
+      "boundaries": [
+        "Current notebook bytes are exactly identical to the copy downloaded on 10/1. C92/C94/C95 are not new this week.",
+        "Its reported tournament scores are author-reported local results; reconstructed public action traces may miss original reactive branches.",
+        "No proof it matches a competitor's current private policy or would lift our locked submission."
+      ],
+      "url": "https://www.kaggle.com/code/raykkretzschmar/kaggriculture-findings-from-zero-to-top-meta",
+      "last_run_new_york": null,
+      "notebook_sha256": "a7447511510ed22b73f2315246b6bf4de66f219ffe3ba692a377f3fb47931331",
+      "cell_source_sha256": "3d36bdd660aaa3d5b6429090a380524fe6b840c9ba600014b95735ff88a78f42",
+      "previous_source": "research/opponent_provenance_1001/sources/raykkretzschmar__kaggriculture-findings-from-zero-to-top-meta/kaggriculture-findings-from-zero-to-top-meta.ipynb",
+      "same_cell_source_as_previous": true,
+      "same_notebook_bytes_as_previous": true
+    }
+  ],
+  "raw_public_sources": "Kept locally under sources/; do not export third-party notebook source, raw lists or downloaded metadata."
+}

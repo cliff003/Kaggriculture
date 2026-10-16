@@ -1,0 +1,11 @@
+{
+  "engine": "1.32.7",
+  "python": "3.12.14 (main, Sep 24 2026, 17:46:32) [Clang 22.1.3 ]",
+  "mode": "replay",
+  "games": 30,
+  "sha256": {
+    "/Users/cliff/Documents/coding/kaggriculture_handoff_20260927/project/submissions/V12_AventadorSVJ/main.py": "08a0d374aedd20641cc91c1683b5560a0d56f19dbe4be245dd117c95bbf3cd57",
+    "/Users/cliff/Documents/coding/kaggriculture_handoff_20260927/project/research/live_0930/prototypes/combined/main.py": "a63ac3394d273b6d4e3a699e0f44febf9cb9d476774368a6245d93cfe43ebb85"
+  },
+  "forced_shops": true
+}

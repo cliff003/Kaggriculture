@@ -1,0 +1,81 @@
+{
+  "checked_utc": "2026-10-01T04:40:10.301244+00:00",
+  "submissions": [
+    {
+      "submission_id": 56649860,
+      "all": {
+        "games": 337,
+        "wins": 154,
+        "losses": 183,
+        "ties": 0,
+        "opponent_median_score": 2335.9644763112374
+      },
+      "last12": {
+        "games": 12,
+        "wins": 4,
+        "losses": 8,
+        "ties": 0,
+        "opponent_median_score": 2165.5626673070064
+      },
+      "last30": {
+        "games": 30,
+        "wins": 12,
+        "losses": 18,
+        "ties": 0,
+        "opponent_median_score": 2187.2379049711362
+      },
+      "after_deadline": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "opponent_median_score": 2158.50268514478
+      },
+      "latest_episode": {
+        "id": 116136552,
+        "end_utc": "2026-10-01T04:30:59.251836500Z",
+        "margin": 2194,
+        "score": 2164.6610165456027,
+        "opponent_score": 2158.50268514478
+      }
+    },
+    {
+      "submission_id": 56713491,
+      "all": {
+        "games": 93,
+        "wins": 53,
+        "losses": 40,
+        "ties": 0,
+        "opponent_median_score": 2165.352569296589
+      },
+      "last12": {
+        "games": 12,
+        "wins": 4,
+        "losses": 8,
+        "ties": 0,
+        "opponent_median_score": 2202.278054431903
+      },
+      "last30": {
+        "games": 30,
+        "wins": 12,
+        "losses": 18,
+        "ties": 0,
+        "opponent_median_score": 2192.399528615914
+      },
+      "after_deadline": {
+        "games": 7,
+        "wins": 2,
+        "losses": 5,
+        "ties": 0,
+        "opponent_median_score": 2203.9334731006034
+      },
+      "latest_episode": {
+        "id": 116125793,
+        "end_utc": "2026-10-01T04:01:08.832026Z",
+        "margin": -9314,
+        "score": 2153.10546136479,
+        "opponent_score": 2227.9973735056287
+      }
+    }
+  ]
+}

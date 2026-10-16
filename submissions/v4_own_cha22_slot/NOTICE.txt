@@ -1,0 +1,7 @@
+Team 42 modification, 2026-09-24: order-slot priority layer appended around the base agent (see main.py header). Base source embedded unchanged, SHA-256 127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652.
+
+Base agent: "cha22 agent" by Abhinav0370, https://www.kaggle.com/code/abhinav0370/cha22-agent
+(main.py SHA-256 127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652), an Apache-2.0
+derivative of the public route-replay lineage (thomastschinkel, yhay81, destbreso, aurax7, tetsutani,
+prvsiyan, Dmitrii Gluzdov, Ahmed Berat Ozer and others). All upstream license text and attribution
+notices are retained unchanged inside the embedded source.

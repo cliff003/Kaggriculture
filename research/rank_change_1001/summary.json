@@ -1,0 +1,185 @@
+{
+  "current_file": "kaggriculture-publicleaderboard-2026-10-01T14:37:00.csv",
+  "current_teams": 10246,
+  "current_own": {
+    "TeamId": "16908623",
+    "TeamName": "42",
+    "Rank": 421,
+    "Score": 2144.1,
+    "LastSubmissionDate": "2026-09-30 16:41:08"
+  },
+  "cuts": {
+    "gold": {
+      "rank": 30,
+      "score": 2697.8,
+      "score_buffer": -553.7,
+      "rank_buffer": -391
+    },
+    "silver": {
+      "rank": 512,
+      "score": 2065.6,
+      "score_buffer": 78.5,
+      "rank_buffer": 91
+    },
+    "bronze": {
+      "rank": 1024,
+      "score": 1835.0,
+      "score_buffer": 309.1,
+      "rank_buffer": 603
+    }
+  },
+  "sep29_saved_own_snapshot": {
+    "time_utc": "2026-09-29 12:00:53",
+    "rank": 200,
+    "teams": 10157,
+    "score": 2422.4,
+    "silver_score": 2206.7,
+    "silver_buffer": 215.7,
+    "source": "results/live_0929_review.md"
+  },
+  "sep29_changes": {
+    "rank": 221,
+    "score": -278.3,
+    "silver_score": -141.1,
+    "silver_buffer": -137.2
+  },
+  "fixed_numeric_score_2422_4_rank_on_current_board": 154,
+  "other_teams_between_current_score_and_2422_4": 267,
+  "sep27_old_own": {
+    "TeamId": "16908623",
+    "TeamName": "42",
+    "Rank": 149,
+    "Score": 2559.7,
+    "LastSubmissionDate": "2026-09-26 19:12:59"
+  },
+  "sep27_crossers": {
+    "count": 289,
+    "absent_in_old": 4,
+    "matched_score_increased": 206,
+    "matched_score_same_or_fell": 79,
+    "matched_median_score_change": 229.8,
+    "matched_last_submission_changed": 281
+  },
+  "recent_rivals": [
+    {
+      "old": {
+        "TeamId": "16622349",
+        "TeamName": "Mengfei Li",
+        "Rank": 153,
+        "Score": 2557.9,
+        "LastSubmissionDate": "2026-09-26 23:13:12"
+      },
+      "current": {
+        "TeamId": "16622349",
+        "TeamName": "Mengfei Li",
+        "Rank": 361,
+        "Score": 2204.6,
+        "LastSubmissionDate": "2026-09-30 23:57:53"
+      }
+    },
+    {
+      "old": {
+        "TeamId": "16730334",
+        "TeamName": "Have a nice trip in USST",
+        "Rank": 937,
+        "Score": 2165.5,
+        "LastSubmissionDate": "2026-09-25 18:15:16"
+      },
+      "current": {
+        "TeamId": "16730334",
+        "TeamName": "Have a nice trip in USST",
+        "Rank": 407,
+        "Score": 2157.3,
+        "LastSubmissionDate": "2026-09-30 23:13:08"
+      }
+    },
+    {
+      "old": {
+        "TeamId": "16727266",
+        "TeamName": "Agricola",
+        "Rank": 224,
+        "Score": 2498.0,
+        "LastSubmissionDate": "2026-09-22 10:19:07"
+      },
+      "current": {
+        "TeamId": "16727266",
+        "TeamName": "Agricola",
+        "Rank": 352,
+        "Score": 2209.3,
+        "LastSubmissionDate": "2026-09-30 23:57:42"
+      }
+    },
+    {
+      "old": {
+        "TeamId": "16630729",
+        "TeamName": "american gothic",
+        "Rank": 110,
+        "Score": 2614.6,
+        "LastSubmissionDate": "2026-09-26 22:37:52"
+      },
+      "current": {
+        "TeamId": "16630729",
+        "TeamName": "american gothic",
+        "Rank": 351,
+        "Score": 2210.0,
+        "LastSubmissionDate": "2026-09-30 23:50:02"
+      }
+    },
+    {
+      "old": {
+        "TeamId": "16908623",
+        "TeamName": "42",
+        "Rank": 149,
+        "Score": 2559.7,
+        "LastSubmissionDate": "2026-09-26 19:12:59"
+      },
+      "current": {
+        "TeamId": "16908623",
+        "TeamName": "42",
+        "Rank": 421,
+        "Score": 2144.1,
+        "LastSubmissionDate": "2026-09-30 16:41:08"
+      }
+    }
+  ],
+  "large_gain_examples": [
+    {
+      "old": {
+        "TeamId": "16891902",
+        "TeamName": "Farmcore",
+        "Rank": 2167,
+        "Score": 1695.8,
+        "LastSubmissionDate": "2026-09-26 07:25:28"
+      },
+      "current": {
+        "TeamId": "16891902",
+        "TeamName": "Farmcore",
+        "Rank": 7,
+        "Score": 2851.8,
+        "LastSubmissionDate": "2026-09-30 23:18:04"
+      }
+    },
+    {
+      "old": {
+        "TeamId": "16698308",
+        "TeamName": "Gemini IS ALL YOU NEED",
+        "Rank": 1066,
+        "Score": 2130.8,
+        "LastSubmissionDate": "2026-09-25 08:36:45"
+      },
+      "current": {
+        "TeamId": "16698308",
+        "TeamName": "Gemini IS ALL YOU NEED",
+        "Rank": 16,
+        "Score": 2760.0,
+        "LastSubmissionDate": "2026-09-30 19:41:28"
+      }
+    }
+  ],
+  "limits": [
+    "No full September 29 leaderboard: cannot identify its exact 221 overtakers.",
+    "Our September 27 active versions differ from current versions.",
+    "Rating movement is not a controlled code comparison; private R&D and code origin unknown.",
+    "Fixed numeric score placement describes leaderboard density, not a prediction."
+  ]
+}

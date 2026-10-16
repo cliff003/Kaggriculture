@@ -1,0 +1,197 @@
+{
+  "checked_utc": "2026-10-01T11:12:45.108842+00:00",
+  "opponents": [
+    {
+      "submission": 56720360,
+      "name": "Mengfei Li",
+      "our_loss_episode": 116220727,
+      "our_match": {
+        "id": 116220727,
+        "end_utc": "2026-10-01T08:06:32.663434600Z",
+        "end_ny": "2026-10-01T04:06:32.663434-04:00",
+        "margin": 34666,
+        "score": 2189.3504830359157,
+        "opponent_submission": 56649860
+      },
+      "first_formal_match": {
+        "id": 115998287,
+        "end_utc": "2026-09-30T22:47:55.145044600Z",
+        "end_ny": "2026-09-30T18:47:55.145044-04:00",
+        "margin": 203849,
+        "score": 669.2890425202473,
+        "opponent_submission": 56720340
+      },
+      "latest_formal_match": {
+        "id": 116283575,
+        "end_utc": "2026-10-01T10:46:42.150134800Z",
+        "end_ny": "2026-10-01T06:46:42.150134-04:00",
+        "margin": -2580,
+        "score": 2178.971344591159,
+        "opponent_submission": 56687808
+      },
+      "all": {
+        "n": 81,
+        "wins": 60,
+        "losses": 21,
+        "ties": 0
+      },
+      "before_deadline": {
+        "n": 17,
+        "wins": 16,
+        "losses": 1,
+        "ties": 0
+      },
+      "before_our_match": {
+        "n": 75,
+        "wins": 58,
+        "losses": 17,
+        "ties": 0
+      },
+      "last_predeadline_score": 1896.4924215361038
+    },
+    {
+      "submission": 56720127,
+      "name": "Have a nice trip in USST",
+      "our_loss_episode": 116262342,
+      "our_match": {
+        "id": 116262342,
+        "end_utc": "2026-10-01T09:49:26.545258900Z",
+        "end_ny": "2026-10-01T05:49:26.545258-04:00",
+        "margin": 12914,
+        "score": 2156.719094566917,
+        "opponent_submission": 56713491
+      },
+      "first_formal_match": {
+        "id": 115992220,
+        "end_utc": "2026-09-30T22:30:45.965296600Z",
+        "end_ny": "2026-09-30T18:30:45.965296-04:00",
+        "margin": 102297,
+        "score": 700.0220543072061,
+        "opponent_submission": 56554455
+      },
+      "latest_formal_match": {
+        "id": 116290827,
+        "end_utc": "2026-10-01T10:59:47.028568700Z",
+        "end_ny": "2026-10-01T06:59:47.028568-04:00",
+        "margin": 7597,
+        "score": 2156.5332720279157,
+        "opponent_submission": 56712585
+      },
+      "all": {
+        "n": 81,
+        "wins": 59,
+        "losses": 22,
+        "ties": 0
+      },
+      "before_deadline": {
+        "n": 23,
+        "wins": 21,
+        "losses": 2,
+        "ties": 0
+      },
+      "before_our_match": {
+        "n": 78,
+        "wins": 57,
+        "losses": 21,
+        "ties": 0
+      },
+      "last_predeadline_score": 1982.9397545820163
+    },
+    {
+      "submission": 56722344,
+      "name": "Agricola",
+      "our_loss_episode": 116259129,
+      "our_match": {
+        "id": 116259129,
+        "end_utc": "2026-10-01T09:43:13.542638400Z",
+        "end_ny": "2026-10-01T05:43:13.542638-04:00",
+        "margin": 7828,
+        "score": 2202.2311336533085,
+        "opponent_submission": 56713491
+      },
+      "first_formal_match": {
+        "id": 116043670,
+        "end_utc": "2026-10-01T00:36:33.485691Z",
+        "end_ny": "2026-09-30T20:36:33.485691-04:00",
+        "margin": 50857,
+        "score": 715.5963287431247,
+        "opponent_submission": 55295798
+      },
+      "latest_formal_match": {
+        "id": 116280014,
+        "end_utc": "2026-10-01T10:37:15.071920300Z",
+        "end_ny": "2026-10-01T06:37:15.071920-04:00",
+        "margin": 9869,
+        "score": 2212.456388779611,
+        "opponent_submission": 56706724
+      },
+      "all": {
+        "n": 86,
+        "wins": 58,
+        "losses": 28,
+        "ties": 0
+      },
+      "before_deadline": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "before_our_match": {
+        "n": 83,
+        "wins": 55,
+        "losses": 28,
+        "ties": 0
+      },
+      "last_predeadline_score": null
+    },
+    {
+      "submission": 56722063,
+      "name": "american gothic",
+      "our_loss_episode": 116275122,
+      "our_match": {
+        "id": 116275122,
+        "end_utc": "2026-10-01T10:23:59.139468100Z",
+        "end_ny": "2026-10-01T06:23:59.139468-04:00",
+        "margin": 8118,
+        "score": 2215.5151029252215,
+        "opponent_submission": 56649860
+      },
+      "first_formal_match": {
+        "id": 116023438,
+        "end_utc": "2026-09-30T23:59:02.096257500Z",
+        "end_ny": "2026-09-30T19:59:02.096257-04:00",
+        "margin": 85287,
+        "score": null,
+        "opponent_submission": 55584310
+      },
+      "latest_formal_match": {
+        "id": 116275122,
+        "end_utc": "2026-10-01T10:23:59.139468100Z",
+        "end_ny": "2026-10-01T06:23:59.139468-04:00",
+        "margin": 8118,
+        "score": 2215.5151029252215,
+        "opponent_submission": 56649860
+      },
+      "all": {
+        "n": 86,
+        "wins": 53,
+        "losses": 33,
+        "ties": 0
+      },
+      "before_deadline": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "before_our_match": {
+        "n": 85,
+        "wins": 52,
+        "losses": 33,
+        "ties": 0
+      },
+      "last_predeadline_score": null
+    }
+  ]
+}

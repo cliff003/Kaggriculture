@@ -1,0 +1,240 @@
+[
+ {
+  "version": "v3",
+  "lane": "live",
+  "day": 24,
+  "status": "live",
+  "change": "rescue + order-slot"
+ },
+ {
+  "version": "v4",
+  "lane": "live",
+  "day": 24,
+  "status": "live",
+  "change": "cha22 + order-slot"
+ },
+ {
+  "version": "v6",
+  "lane": "live",
+  "day": 25,
+  "status": "live",
+  "change": "+ eager sell, sell order"
+ },
+ {
+  "version": "v7",
+  "lane": "live",
+  "day": 25,
+  "status": "live",
+  "change": "eager band 0.2x to 1.4x"
+ },
+ {
+  "version": "v6b",
+  "lane": "live",
+  "day": 25,
+  "status": "live",
+  "change": "no eager ceiling"
+ },
+ {
+  "version": "v7b",
+  "lane": "live",
+  "day": 25,
+  "status": "live",
+  "change": "+ wheat lead"
+ },
+ {
+  "version": "v7c",
+  "lane": "live",
+  "day": 25,
+  "status": "live",
+  "change": "+ base fixes"
+ },
+ {
+  "version": "v8",
+  "lane": "live",
+  "day": 26,
+  "status": "live",
+  "change": "+ TICK"
+ },
+ {
+  "version": "v9",
+  "lane": "live",
+  "day": 26,
+  "status": "live",
+  "change": "+ trap guard"
+ },
+ {
+  "version": "v10",
+  "lane": "live",
+  "day": 27,
+  "status": "live",
+  "change": "+ tomato gate"
+ },
+ {
+  "version": "v11a",
+  "lane": "public",
+  "day": 27,
+  "status": "sealed",
+  "change": "pre-buy rule"
+ },
+ {
+  "version": "v11",
+  "lane": "public",
+  "day": 28,
+  "status": "live",
+  "change": "+ deferral, rev_guard"
+ },
+ {
+  "version": "V10_CarreraGT",
+  "lane": "public",
+  "day": 28,
+  "status": "live",
+  "change": "+ 18 tomatoes"
+ },
+ {
+  "version": "v12",
+  "lane": "ace",
+  "day": 26,
+  "status": "sealed",
+  "change": "v8 + FADE"
+ },
+ {
+  "version": "v12_1",
+  "lane": "ace",
+  "day": 26,
+  "status": "sealed",
+  "change": "TICK from day 13"
+ },
+ {
+  "version": "v12_2",
+  "lane": "ace",
+  "day": 26,
+  "status": "sealed",
+  "change": "scheduled fade"
+ },
+ {
+  "version": "v12_3",
+  "lane": "ace",
+  "day": 26,
+  "status": "sealed",
+  "change": "+ trap guard"
+ },
+ {
+  "version": "v12_4",
+  "lane": "ace",
+  "day": 27,
+  "status": "sealed",
+  "change": "tomato gate"
+ },
+ {
+  "version": "v12_5",
+  "lane": "ace",
+  "day": 27,
+  "status": "sealed",
+  "change": "P&L guard"
+ },
+ {
+  "version": "v12_6",
+  "lane": "ace",
+  "day": 27,
+  "status": "sealed",
+  "change": "GFADE"
+ },
+ {
+  "version": "v12_7",
+  "lane": "ace",
+  "day": 27,
+  "status": "sealed",
+  "change": "pre-buy rule"
+ },
+ {
+  "version": "v12_8",
+  "lane": "ace",
+  "day": 28,
+  "status": "sealed",
+  "change": "deferral"
+ },
+ {
+  "version": "v12_9",
+  "lane": "ace",
+  "day": 28,
+  "status": "sealed",
+  "change": "fade position up to 2N"
+ },
+ {
+  "version": "v12_10",
+  "lane": "ace",
+  "day": 28,
+  "status": "rejected",
+  "change": "squeeze layer"
+ },
+ {
+  "version": "v12_11",
+  "lane": "ace",
+  "day": 28,
+  "status": "sealed",
+  "change": "fade wind-down"
+ },
+ {
+  "version": "v12_12",
+  "lane": "ace",
+  "day": 28,
+  "status": "sealed",
+  "change": "precise warehouse room"
+ },
+ {
+  "version": "v12_13",
+  "lane": "ace",
+  "day": 28,
+  "status": "sealed",
+  "change": "base wheat-sell cap"
+ },
+ {
+  "version": "v12_14",
+  "lane": "ace",
+  "day": 28,
+  "status": "sealed",
+  "change": "cap only against 40+"
+ },
+ {
+  "version": "v12_15",
+  "lane": "ace",
+  "day": 28,
+  "status": "sealed",
+  "change": "18 tomatoes"
+ },
+ {
+  "version": "V12_AventadorSVJ",
+  "lane": "ace",
+  "day": 28,
+  "status": "final",
+  "change": "= v12_15"
+ },
+ {
+  "version": "v12_16",
+  "lane": "ace",
+  "day": 28,
+  "status": "rejected",
+  "change": "strawberry block"
+ },
+ {
+  "version": "v12_17",
+  "lane": "ace",
+  "day": 29,
+  "status": "sealed",
+  "change": "sheep cash reserve"
+ },
+ {
+  "version": "v12_18",
+  "lane": "ace",
+  "day": 30,
+  "status": "sealed",
+  "change": "late tomato crews"
+ },
+ {
+  "version": "v12_19",
+  "lane": "ace",
+  "day": 30,
+  "status": "final",
+  "change": "layout-adaptive fertilizer"
+ }
+]

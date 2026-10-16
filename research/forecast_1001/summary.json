@@ -1,0 +1,173 @@
+{
+  "current": {
+    "time_utc": "2026-10-01T15:02:41",
+    "rank": 424,
+    "score": 2144.1,
+    "cuts": {
+      "silver": {
+        "rank": 512,
+        "score": 2065.4,
+        "buffer": 78.7
+      },
+      "bronze": {
+        "rank": 1024,
+        "score": 1835.6,
+        "buffer": 308.5
+      }
+    }
+  },
+  "anchors": [
+    {
+      "time_utc": "2026-09-29T12:00:53",
+      "silver_buffer": 215.7,
+      "source": "results/live_0929_review.md"
+    },
+    {
+      "time_utc": "2026-09-30T15:49:40",
+      "silver_buffer": 111.7,
+      "source": "results/agent_rescue_0930.md"
+    },
+    {
+      "time_utc": "2026-10-01T04:38:45",
+      "silver_buffer": 82.1,
+      "bronze_buffer": 324.3,
+      "source": "results/final_medal_status_1001.md"
+    },
+    {
+      "time_utc": "2026-10-01T10:52:58",
+      "silver_buffer": 78.4,
+      "bronze_buffer": 313.1,
+      "source": "results/postdeadline_review_1001.md"
+    },
+    {
+      "time_utc": "2026-10-01T14:37:00",
+      "silver_buffer": 78.5,
+      "bronze_buffer": 309.1,
+      "source": "results/rank_change_1001.md"
+    }
+  ],
+  "windows": [
+    {
+      "start_utc": "2026-09-29T12:00:53",
+      "hours": 51.03,
+      "silver_change": -137.0,
+      "silver_shrink_per_day": 64.4327,
+      "silver_buffer_if_same_rate_14_days": -823.4,
+      "silver_days_to_zero_if_same_rate": 1.22
+    },
+    {
+      "start_utc": "2026-09-30T15:49:40",
+      "hours": 23.2169,
+      "silver_change": -33.0,
+      "silver_shrink_per_day": 34.113,
+      "silver_buffer_if_same_rate_14_days": -398.9,
+      "silver_days_to_zero_if_same_rate": 2.31
+    },
+    {
+      "start_utc": "2026-10-01T04:38:45",
+      "hours": 10.3989,
+      "silver_change": -3.4,
+      "silver_shrink_per_day": 7.847,
+      "silver_buffer_if_same_rate_14_days": -31.2,
+      "silver_days_to_zero_if_same_rate": 10.03,
+      "bronze_shrink_per_day": 36.4654,
+      "bronze_buffer_if_same_rate_14_days": -202.0,
+      "bronze_days_to_zero_if_same_rate": 8.46,
+      "cutoff_order_violated_after_days_if_both_rates_fixed": 8.03,
+      "joint_linear_projection_valid_for14days": false
+    },
+    {
+      "start_utc": "2026-10-01T10:52:58",
+      "hours": 4.1619,
+      "silver_change": 0.3,
+      "silver_shrink_per_day": -1.73,
+      "silver_buffer_if_same_rate_14_days": 102.9,
+      "silver_days_to_zero_if_same_rate": null,
+      "bronze_shrink_per_day": 26.5261,
+      "bronze_buffer_if_same_rate_14_days": -62.9,
+      "bronze_days_to_zero_if_same_rate": 11.63,
+      "cutoff_order_violated_after_days_if_both_rates_fixed": 8.13,
+      "joint_linear_projection_valid_for14days": false
+    },
+    {
+      "start_utc": "2026-10-01T14:37:00",
+      "hours": 0.4281,
+      "silver_change": 0.2,
+      "silver_shrink_per_day": -11.2135,
+      "silver_buffer_if_same_rate_14_days": 235.7,
+      "silver_days_to_zero_if_same_rate": null,
+      "bronze_shrink_per_day": 33.6405,
+      "bronze_buffer_if_same_rate_14_days": -162.5,
+      "bronze_days_to_zero_if_same_rate": 9.17,
+      "cutoff_order_violated_after_days_if_both_rates_fixed": 5.12,
+      "joint_linear_projection_valid_for14days": false
+    }
+  ],
+  "silver_scenarios": [
+    {
+      "silver_shrink_per_day": 0,
+      "silver_buffer_after14": 78.7,
+      "days_to_silver_line": null
+    },
+    {
+      "silver_shrink_per_day": 3,
+      "silver_buffer_after14": 36.7,
+      "days_to_silver_line": 26.23
+    },
+    {
+      "silver_shrink_per_day": 6,
+      "silver_buffer_after14": -5.3,
+      "days_to_silver_line": 13.12
+    },
+    {
+      "silver_shrink_per_day": 8,
+      "silver_buffer_after14": -33.3,
+      "days_to_silver_line": 9.84
+    },
+    {
+      "silver_shrink_per_day": 12,
+      "silver_buffer_after14": -89.3,
+      "days_to_silver_line": 6.56
+    }
+  ],
+  "max_average_daily_shrink_to_remain_above_line_14days": {
+    "silver": 5.6214,
+    "bronze": 22.0357
+  },
+  "agents": {
+    "56649860": {
+      "last30": {
+        "n": 30,
+        "wins": 10,
+        "losses": 20
+      },
+      "postdeadline": {
+        "n": 24,
+        "wins": 9,
+        "losses": 15
+      },
+      "last_game_utc": "2026-10-01T14:25:25.994935900Z"
+    },
+    "56713491": {
+      "last30": {
+        "n": 30,
+        "wins": 12,
+        "losses": 18
+      },
+      "postdeadline": {
+        "n": 26,
+        "wins": 11,
+        "losses": 15
+      },
+      "last_game_utc": "2026-10-01T14:25:01.992515500Z"
+    }
+  },
+  "limits": [
+    "Linear sensitivity scenarios are not fitted or calibrated outcome probabilities.",
+    "Predeadline pool changes and score convergence invalidate a stationary slope assumption.",
+    "Final Bradley-Terry ranking is different from extrapolated ladder rating.",
+    "Joint silver/bronze linear trends can reverse the required cutoff ordering and become impossible.",
+    "Recent best-team margin can change when the better active submission changes.",
+    "Recent short-term stability does not establish a final plateau."
+  ]
+}

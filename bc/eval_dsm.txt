@@ -1,0 +1,3 @@
+vs PASS     games  20  wins  18  our money     29479  theirs      3000  errors 0
+vs cha22    games  20  wins   0  our money     29420  theirs    167771  errors 0
+vs v9live   games  20  wins   0  our money     27998  theirs    164843  errors 0

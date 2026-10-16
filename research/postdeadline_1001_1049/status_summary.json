@@ -1,0 +1,782 @@
+{
+  "checked_utc": "2026-10-01T10:55:42.934426+00:00",
+  "agents": {
+    "56649860": {
+      "all": {
+        "n": 348,
+        "wins": 158,
+        "losses": 190,
+        "median_opponent_score": 2328.4593314040203
+      },
+      "last30": {
+        "n": 30,
+        "wins": 11,
+        "losses": 19,
+        "median_opponent_score": 2165.5626673070064
+      },
+      "last12": {
+        "n": 12,
+        "wins": 5,
+        "losses": 7,
+        "median_opponent_score": 2143.188735270667
+      },
+      "postdeadline": {
+        "n": 16,
+        "wins": 6,
+        "losses": 10,
+        "median_opponent_score": 2145.787887119691
+      },
+      "since_previous_check": {
+        "n": 11,
+        "wins": 4,
+        "losses": 7,
+        "median_opponent_score": 2139.0398653524226
+      },
+      "latest": {
+        "id": 116275122,
+        "end_utc": "2026-10-01T10:23:59.139468100Z",
+        "end_ny": "2026-10-01T06:23:59.139468-04:00",
+        "result": "负",
+        "margin": -8118,
+        "score": 2150.2487055390043,
+        "opponent_score": 2211.933646899553,
+        "opponent_submission": 56722063,
+        "opponent_team": "american gothic"
+      },
+      "latest30": [
+        {
+          "id": 115947781,
+          "end_utc": "2026-09-30T20:24:46.401795Z",
+          "end_ny": "2026-09-30T16:24:46.401795-04:00",
+          "result": "胜",
+          "margin": 4145,
+          "score": 2192.356011673946,
+          "opponent_score": 2218.07430227015,
+          "opponent_submission": 56597960,
+          "opponent_team": "Vaibhav Gupta"
+        },
+        {
+          "id": 115954644,
+          "end_utc": "2026-09-30T20:48:30.672218200Z",
+          "end_ny": "2026-09-30T16:48:30.672218-04:00",
+          "result": "负",
+          "margin": -5359,
+          "score": 2188.5698287937735,
+          "opponent_score": 2232.9041119036533,
+          "opponent_submission": 56715422,
+          "opponent_team": "Gökmen KÜÇÜKAYDIN"
+        },
+        {
+          "id": 115955805,
+          "end_utc": "2026-09-30T20:51:31.562395400Z",
+          "end_ny": "2026-09-30T16:51:31.562395-04:00",
+          "result": "胜",
+          "margin": 701,
+          "score": 2191.3005657029735,
+          "opponent_score": 2082.6814124968696,
+          "opponent_submission": 56716680,
+          "opponent_team": "neibyr"
+        },
+        {
+          "id": 115964335,
+          "end_utc": "2026-09-30T21:09:46.693661600Z",
+          "end_ny": "2026-09-30T17:09:46.693661-04:00",
+          "result": "胜",
+          "margin": 1257,
+          "score": 2194.4412854860393,
+          "opponent_score": 2102.5612821314735,
+          "opponent_submission": 56697306,
+          "opponent_team": "github/shepsci/kaggle-skill"
+        },
+        {
+          "id": 115964707,
+          "end_utc": "2026-09-30T21:16:22.376482300Z",
+          "end_ny": "2026-09-30T17:16:22.376482-04:00",
+          "result": "负",
+          "margin": -13446,
+          "score": 2191.47214750106,
+          "opponent_score": 2245.5788953371825,
+          "opponent_submission": 56717646,
+          "opponent_team": "Talented_Eggs"
+        },
+        {
+          "id": 115972055,
+          "end_utc": "2026-09-30T21:32:39.266649600Z",
+          "end_ny": "2026-09-30T17:32:39.266649-04:00",
+          "result": "负",
+          "margin": -19944,
+          "score": 2186.9327114212215,
+          "opponent_score": 2188.177700631151,
+          "opponent_submission": 56714435,
+          "opponent_team": "Lebxgue."
+        },
+        {
+          "id": 115975008,
+          "end_utc": "2026-09-30T21:37:44.540556Z",
+          "end_ny": "2026-09-30T17:37:44.540556-04:00",
+          "result": "负",
+          "margin": -11096,
+          "score": 2182.198724062417,
+          "opponent_score": 2172.35342654532,
+          "opponent_submission": 56625103,
+          "opponent_team": "mbscgi"
+        },
+        {
+          "id": 115982531,
+          "end_utc": "2026-09-30T21:58:50.992737300Z",
+          "end_ny": "2026-09-30T17:58:50.992737-04:00",
+          "result": "胜",
+          "margin": 4424,
+          "score": 2186.9984413056845,
+          "opponent_score": 2200.6756985883167,
+          "opponent_submission": 56530398,
+          "opponent_team": "Evil Mango"
+        },
+        {
+          "id": 115982625,
+          "end_utc": "2026-09-30T21:59:50.330162200Z",
+          "end_ny": "2026-09-30T17:59:50.330162-04:00",
+          "result": "负",
+          "margin": -988,
+          "score": 2182.0253784694023,
+          "opponent_score": 2158.3464947117373,
+          "opponent_submission": 56684474,
+          "opponent_team": "enduejdu"
+        },
+        {
+          "id": 115985195,
+          "end_utc": "2026-09-30T22:09:04.489703500Z",
+          "end_ny": "2026-09-30T18:09:04.489703-04:00",
+          "result": "负",
+          "margin": -14296,
+          "score": 2178.7057524356137,
+          "opponent_score": 2257.3774993750244,
+          "opponent_submission": 56715706,
+          "opponent_team": "Iskander Yusupov"
+        },
+        {
+          "id": 115993146,
+          "end_utc": "2026-09-30T22:31:01.332528500Z",
+          "end_ny": "2026-09-30T18:31:01.332528-04:00",
+          "result": "胜",
+          "margin": 1415,
+          "score": 2183.338832011287,
+          "opponent_score": 2187.2571065810776,
+          "opponent_submission": 56708056,
+          "opponent_team": "Unkn0wn"
+        },
+        {
+          "id": 115999077,
+          "end_utc": "2026-09-30T22:47:57.744126900Z",
+          "end_ny": "2026-09-30T18:47:57.744126-04:00",
+          "result": "负",
+          "margin": -1121,
+          "score": 2178.6603338333066,
+          "opponent_score": 2171.806809281181,
+          "opponent_submission": 56715387,
+          "opponent_team": "tq1d"
+        },
+        {
+          "id": 116000844,
+          "end_utc": "2026-09-30T22:53:40.658766800Z",
+          "end_ny": "2026-09-30T18:53:40.658766-04:00",
+          "result": "负",
+          "margin": -14660,
+          "score": 2174.5113470143065,
+          "opponent_score": 2199.844900559819,
+          "opponent_submission": 56712632,
+          "opponent_team": "Liuzonglin"
+        },
+        {
+          "id": 116012774,
+          "end_utc": "2026-09-30T23:29:30.525183500Z",
+          "end_ny": "2026-09-30T19:29:30.525183-04:00",
+          "result": "负",
+          "margin": -3711,
+          "score": 2169.35163804884,
+          "opponent_score": 2132.00631668184,
+          "opponent_submission": 56717597,
+          "opponent_team": "Erfan Eshratifar"
+        },
+        {
+          "id": 116062455,
+          "end_utc": "2026-10-01T01:24:42.538660Z",
+          "end_ny": "2026-09-30T21:24:42.538660-04:00",
+          "result": "负",
+          "margin": -26636,
+          "score": 2165.9231537203104,
+          "opponent_score": 2202.0978288550245,
+          "opponent_submission": 56721450,
+          "opponent_team": "yjshyfy"
+        },
+        {
+          "id": 116068278,
+          "end_utc": "2026-10-01T01:36:22.590367800Z",
+          "end_ny": "2026-09-30T21:36:22.590367-04:00",
+          "result": "胜",
+          "margin": 5038,
+          "score": 2169.981859055085,
+          "opponent_score": 2144.2381690504694,
+          "opponent_submission": 56720054,
+          "opponent_team": "Kudo"
+        },
+        {
+          "id": 116068148,
+          "end_utc": "2026-10-01T01:37:14.297117300Z",
+          "end_ny": "2026-09-30T21:37:14.297117-04:00",
+          "result": "负",
+          "margin": -12414,
+          "score": 2165.413935604548,
+          "opponent_score": 2159.318525332832,
+          "opponent_submission": 56720036,
+          "opponent_team": "Snorlax"
+        },
+        {
+          "id": 116100748,
+          "end_utc": "2026-10-01T02:59:15.712288400Z",
+          "end_ny": "2026-09-30T22:59:15.712288-04:00",
+          "result": "负",
+          "margin": -11227,
+          "score": 2160.216491845905,
+          "opponent_score": 2119.3758210713386,
+          "opponent_submission": 56722226,
+          "opponent_team": "Alexander Gremyakov"
+        },
+        {
+          "id": 116136552,
+          "end_utc": "2026-10-01T04:30:59.251836500Z",
+          "end_ny": "2026-10-01T00:30:59.251836-04:00",
+          "result": "胜",
+          "margin": 2194,
+          "score": 2164.6610165456027,
+          "opponent_score": 2158.50268514478,
+          "opponent_submission": 56719676,
+          "opponent_team": "Subramanya N"
+        },
+        {
+          "id": 116159587,
+          "end_utc": "2026-10-01T05:28:30.257641800Z",
+          "end_ny": "2026-10-01T01:28:30.257641-04:00",
+          "result": "负",
+          "margin": -6699,
+          "score": 2160.6313323177515,
+          "opponent_score": 2192.9700906587523,
+          "opponent_submission": 56717995,
+          "opponent_team": "PrasadChopade213"
+        },
+        {
+          "id": 116167014,
+          "end_utc": "2026-10-01T05:43:57.598658Z",
+          "end_ny": "2026-10-01T01:43:57.598658-04:00",
+          "result": "负",
+          "margin": -2390,
+          "score": 2155.9278867998983,
+          "opponent_score": 2147.3376051889118,
+          "opponent_submission": 56719834,
+          "opponent_team": "kyy666"
+        },
+        {
+          "id": 116190316,
+          "end_utc": "2026-10-01T06:43:14.387401900Z",
+          "end_ny": "2026-10-01T02:43:14.387401-04:00",
+          "result": "负",
+          "margin": -771,
+          "score": 2150.6842814982547,
+          "opponent_score": 2111.6783614387004,
+          "opponent_submission": 56698657,
+          "opponent_team": "artem3605"
+        },
+        {
+          "id": 116201160,
+          "end_utc": "2026-10-01T07:11:57.834846Z",
+          "end_ny": "2026-10-01T03:11:57.834846-04:00",
+          "result": "胜",
+          "margin": 256,
+          "score": 2154.553635236123,
+          "opponent_score": 2111.62130085116,
+          "opponent_submission": 56703480,
+          "opponent_team": "Claudex - An"
+        },
+        {
+          "id": 116212002,
+          "end_utc": "2026-10-01T07:43:21.255248100Z",
+          "end_ny": "2026-10-01T03:43:21.255248-04:00",
+          "result": "胜",
+          "margin": 13023,
+          "score": 2158.028928617267,
+          "opponent_score": 2089.24709744888,
+          "opponent_submission": 56689081,
+          "opponent_team": "Riki Uchida"
+        },
+        {
+          "id": 116220727,
+          "end_utc": "2026-10-01T08:06:32.663434600Z",
+          "end_ny": "2026-10-01T04:06:32.663434-04:00",
+          "result": "负",
+          "margin": -34666,
+          "score": 2153.9758611805537,
+          "opponent_score": 2185.2429819458453,
+          "opponent_submission": 56720360,
+          "opponent_team": "Mengfei Li"
+        },
+        {
+          "id": 116237200,
+          "end_utc": "2026-10-01T08:45:30.387716700Z",
+          "end_ny": "2026-10-01T04:45:30.387716-04:00",
+          "result": "负",
+          "margin": -745,
+          "score": 2150.090119119012,
+          "opponent_score": 2191.975160782127,
+          "opponent_submission": 56689659,
+          "opponent_team": "miya"
+        },
+        {
+          "id": 116245053,
+          "end_utc": "2026-10-01T09:06:35.939756600Z",
+          "end_ny": "2026-10-01T05:06:35.939756-04:00",
+          "result": "负",
+          "margin": -1125,
+          "score": 2145.370890734492,
+          "opponent_score": 2136.3891094640167,
+          "opponent_submission": 56690839,
+          "opponent_team": "automatylicza"
+        },
+        {
+          "id": 116249598,
+          "end_utc": "2026-10-01T09:17:18.298030900Z",
+          "end_ny": "2026-10-01T05:17:18.298030-04:00",
+          "result": "胜",
+          "margin": 3827,
+          "score": 2149.5094122447626,
+          "opponent_score": 2123.5271848925368,
+          "opponent_submission": 56687657,
+          "opponent_team": "kyy666"
+        },
+        {
+          "id": 116258579,
+          "end_utc": "2026-10-01T09:40:02.171581Z",
+          "end_ny": "2026-10-01T05:40:02.171581-04:00",
+          "result": "胜",
+          "margin": 10832,
+          "score": 2153.830161564673,
+          "opponent_score": 2139.0398653524226,
+          "opponent_submission": 56666332,
+          "opponent_team": "shane18"
+        },
+        {
+          "id": 116275122,
+          "end_utc": "2026-10-01T10:23:59.139468100Z",
+          "end_ny": "2026-10-01T06:23:59.139468-04:00",
+          "result": "负",
+          "margin": -8118,
+          "score": 2150.2487055390043,
+          "opponent_score": 2211.933646899553,
+          "opponent_submission": 56722063,
+          "opponent_team": "american gothic"
+        }
+      ]
+    },
+    "56713491": {
+      "all": {
+        "n": 102,
+        "wins": 57,
+        "losses": 45,
+        "median_opponent_score": 2160.100113988546
+      },
+      "last30": {
+        "n": 30,
+        "wins": 12,
+        "losses": 18,
+        "median_opponent_score": 2166.6523007863525
+      },
+      "last12": {
+        "n": 12,
+        "wins": 5,
+        "losses": 7,
+        "median_opponent_score": 2158.7728711345435
+      },
+      "postdeadline": {
+        "n": 16,
+        "wins": 6,
+        "losses": 10,
+        "median_opponent_score": 2173.6467623883827
+      },
+      "since_previous_check": {
+        "n": 9,
+        "wins": 4,
+        "losses": 5,
+        "median_opponent_score": 2152.2922897724834
+      },
+      "latest": {
+        "id": 116279074,
+        "end_utc": "2026-10-01T10:32:49.355862800Z",
+        "end_ny": "2026-10-01T06:32:49.355862-04:00",
+        "result": "胜",
+        "margin": 1344,
+        "score": 2148.5660268198108,
+        "opponent_score": 2153.306475943195,
+        "opponent_submission": 56684484,
+        "opponent_team": "Dmytro Maliarenko"
+      },
+      "latest30": [
+        {
+          "id": 115959602,
+          "end_utc": "2026-09-30T20:59:54.728213600Z",
+          "end_ny": "2026-09-30T16:59:54.728213-04:00",
+          "result": "负",
+          "margin": -473,
+          "score": 2167.986842867512,
+          "opponent_score": 2104.563388397149,
+          "opponent_submission": 56703480,
+          "opponent_team": "Claudex - An"
+        },
+        {
+          "id": 115961264,
+          "end_utc": "2026-09-30T21:02:59.241710400Z",
+          "end_ny": "2026-09-30T17:02:59.241710-04:00",
+          "result": "负",
+          "margin": -6048,
+          "score": 2163.783675875026,
+          "opponent_score": 2204.460754828052,
+          "opponent_submission": 56712632,
+          "opponent_team": "Liuzonglin"
+        },
+        {
+          "id": 115961121,
+          "end_utc": "2026-09-30T21:04:39.761032200Z",
+          "end_ny": "2026-09-30T17:04:39.761032-04:00",
+          "result": "胜",
+          "margin": 12174,
+          "score": 2169.7978812227852,
+          "opponent_score": 2249.9454951240614,
+          "opponent_submission": 56716643,
+          "opponent_team": "Lucien de Rubempre"
+        },
+        {
+          "id": 115962656,
+          "end_utc": "2026-09-30T21:05:49.286766100Z",
+          "end_ny": "2026-09-30T17:05:49.286766-04:00",
+          "result": "负",
+          "margin": -15358,
+          "score": 2163.759750374494,
+          "opponent_score": 2082.2737533301733,
+          "opponent_submission": 56716521,
+          "opponent_team": "Touyu"
+        },
+        {
+          "id": 115964216,
+          "end_utc": "2026-09-30T21:10:01.096102800Z",
+          "end_ny": "2026-09-30T17:10:01.096102-04:00",
+          "result": "胜",
+          "margin": 626,
+          "score": 2168.1729778551953,
+          "opponent_score": 2153.5917853459823,
+          "opponent_submission": 56710748,
+          "opponent_team": "porosyonok Beib"
+        },
+        {
+          "id": 115965935,
+          "end_utc": "2026-09-30T21:13:47.472267600Z",
+          "end_ny": "2026-09-30T17:13:47.472267-04:00",
+          "result": "负",
+          "margin": -2666,
+          "score": 2164.1960346501637,
+          "opponent_score": 2201.21158138808,
+          "opponent_submission": 56684419,
+          "opponent_team": "Masahiro Yamagata"
+        },
+        {
+          "id": 115966742,
+          "end_utc": "2026-09-30T21:18:01.672829500Z",
+          "end_ny": "2026-09-30T17:18:01.672829-04:00",
+          "result": "胜",
+          "margin": 1282,
+          "score": 2166.405484911514,
+          "opponent_score": 2002.8790639863041,
+          "opponent_submission": 56716101,
+          "opponent_team": "Asan Ashirov"
+        },
+        {
+          "id": 115973565,
+          "end_utc": "2026-09-30T21:36:25.138330100Z",
+          "end_ny": "2026-09-30T17:36:25.138330-04:00",
+          "result": "负",
+          "margin": -2581,
+          "score": 2161.689176158286,
+          "opponent_score": 2152.8783520461193,
+          "opponent_submission": 56673838,
+          "opponent_team": "Hello kaggle"
+        },
+        {
+          "id": 115978785,
+          "end_utc": "2026-09-30T21:49:45.611552300Z",
+          "end_ny": "2026-09-30T17:49:45.611552-04:00",
+          "result": "胜",
+          "margin": 1242,
+          "score": 2165.6468197049708,
+          "opponent_score": 2133.5186706703817,
+          "opponent_submission": 56716680,
+          "opponent_team": "neibyr"
+        },
+        {
+          "id": 115978992,
+          "end_utc": "2026-09-30T21:50:23.937240400Z",
+          "end_ny": "2026-09-30T17:50:23.937240-04:00",
+          "result": "胜",
+          "margin": 39,
+          "score": 2168.9065732348154,
+          "opponent_score": 2086.6078512442514,
+          "opponent_submission": 56715905,
+          "opponent_team": "Binbin022"
+        },
+        {
+          "id": 115985672,
+          "end_utc": "2026-09-30T22:08:13.654443700Z",
+          "end_ny": "2026-09-30T18:08:13.654443-04:00",
+          "result": "胜",
+          "margin": 170,
+          "score": 2173.303460282548,
+          "opponent_score": 2163.1268920340203,
+          "opponent_submission": 56714075,
+          "opponent_team": "TS"
+        },
+        {
+          "id": 115993259,
+          "end_utc": "2026-09-30T22:30:00.901743400Z",
+          "end_ny": "2026-09-30T18:30:00.901743-04:00",
+          "result": "负",
+          "margin": -2057,
+          "score": 2169.518402225335,
+          "opponent_score": 2217.8708008811973,
+          "opponent_submission": 56708432,
+          "opponent_team": "Hikaru Umeda"
+        },
+        {
+          "id": 116002397,
+          "end_utc": "2026-09-30T23:01:56.690424400Z",
+          "end_ny": "2026-09-30T19:01:56.690424-04:00",
+          "result": "负",
+          "margin": -3978,
+          "score": 2165.1136193227185,
+          "opponent_score": 2174.8137450595796,
+          "opponent_submission": 56694107,
+          "opponent_team": "joy of harvest"
+        },
+        {
+          "id": 116019377,
+          "end_utc": "2026-09-30T23:47:23.976641700Z",
+          "end_ny": "2026-09-30T19:47:23.976641-04:00",
+          "result": "负",
+          "margin": -14050,
+          "score": 2161.257980129416,
+          "opponent_score": 2205.0683341691724,
+          "opponent_submission": 56697821,
+          "opponent_team": "mhiro2"
+        },
+        {
+          "id": 116067822,
+          "end_utc": "2026-10-01T01:36:53.323998700Z",
+          "end_ny": "2026-09-30T21:36:53.323998-04:00",
+          "result": "胜",
+          "margin": 12499,
+          "score": 2166.626375308766,
+          "opponent_score": 2223.023027412312,
+          "opponent_submission": 56720462,
+          "opponent_team": "Knight of Favonius"
+        },
+        {
+          "id": 116075793,
+          "end_utc": "2026-10-01T01:57:03.702951500Z",
+          "end_ny": "2026-09-30T21:57:03.702951-04:00",
+          "result": "负",
+          "margin": -7412,
+          "score": 2162.4027064384363,
+          "opponent_score": 2178.228189529952,
+          "opponent_submission": 56720462,
+          "opponent_team": "Knight of Favonius"
+        },
+        {
+          "id": 116086308,
+          "end_utc": "2026-10-01T02:25:54.551618400Z",
+          "end_ny": "2026-09-30T22:25:54.551618-04:00",
+          "result": "负",
+          "margin": -1329,
+          "score": 2158.6544050679513,
+          "opponent_score": 2203.9334731006034,
+          "opponent_submission": 56721354,
+          "opponent_team": "Ian lin"
+        },
+        {
+          "id": 116089318,
+          "end_utc": "2026-10-01T02:39:12.482166800Z",
+          "end_ny": "2026-09-30T22:39:12.482166-04:00",
+          "result": "负",
+          "margin": -13034,
+          "score": 2155.4101617361966,
+          "opponent_score": 2231.951905121527,
+          "opponent_submission": 56721565,
+          "opponent_team": "Roy Lo TW"
+        },
+        {
+          "id": 116102754,
+          "end_utc": "2026-10-01T03:06:23.928676100Z",
+          "end_ny": "2026-09-30T23:06:23.928676-04:00",
+          "result": "负",
+          "margin": -2356,
+          "score": 2151.177170115386,
+          "opponent_score": 2169.065335246813,
+          "opponent_submission": 56720210,
+          "opponent_team": "Ivan Vybornov"
+        },
+        {
+          "id": 116122145,
+          "end_utc": "2026-10-01T03:52:51.501893900Z",
+          "end_ny": "2026-09-30T23:52:51.501893-04:00",
+          "result": "胜",
+          "margin": 3291,
+          "score": 2156.477374071854,
+          "opponent_score": 2200.622635763203,
+          "opponent_submission": 56720054,
+          "opponent_team": "Kudo"
+        },
+        {
+          "id": 116125793,
+          "end_utc": "2026-10-01T04:01:08.832026Z",
+          "end_ny": "2026-10-01T00:01:08.832026-04:00",
+          "result": "负",
+          "margin": -9314,
+          "score": 2153.10546136479,
+          "opponent_score": 2227.9973735056287,
+          "opponent_submission": 56720657,
+          "opponent_team": "american gothic"
+        },
+        {
+          "id": 116162602,
+          "end_utc": "2026-10-01T05:37:07.065920Z",
+          "end_ny": "2026-10-01T01:37:07.065920-04:00",
+          "result": "胜",
+          "margin": 6446,
+          "score": 2157.7816596545476,
+          "opponent_score": 2164.2392663258915,
+          "opponent_submission": 56699170,
+          "opponent_team": "shawnYiB"
+        },
+        {
+          "id": 116164792,
+          "end_utc": "2026-10-01T05:42:28.692433100Z",
+          "end_ny": "2026-10-01T01:42:28.692433-04:00",
+          "result": "负",
+          "margin": -12913,
+          "score": 2154.006518121146,
+          "opponent_score": 2202.608044774379,
+          "opponent_submission": 56721989,
+          "opponent_team": "Nevska"
+        },
+        {
+          "id": 116189312,
+          "end_utc": "2026-10-01T06:44:16.470568800Z",
+          "end_ny": "2026-10-01T02:44:16.470568-04:00",
+          "result": "负",
+          "margin": -9353,
+          "score": 2149.166703865359,
+          "opponent_score": 2132.9164281544736,
+          "opponent_submission": 56720818,
+          "opponent_team": "我小栗帽要娶藤正进行曲！！！💍"
+        },
+        {
+          "id": 116208859,
+          "end_utc": "2026-10-01T07:33:07.281410800Z",
+          "end_ny": "2026-10-01T03:33:07.281410-04:00",
+          "result": "胜",
+          "margin": 335,
+          "score": 2153.4310253249514,
+          "opponent_score": 2135.198068008916,
+          "opponent_submission": 56690839,
+          "opponent_team": "automatylicza"
+        },
+        {
+          "id": 116225469,
+          "end_utc": "2026-10-01T08:20:25.485815300Z",
+          "end_ny": "2026-10-01T04:20:25.485815-04:00",
+          "result": "负",
+          "margin": -468,
+          "score": 2147.652989111419,
+          "opponent_score": 2079.268147114465,
+          "opponent_submission": 56702556,
+          "opponent_team": "ASH"
+        },
+        {
+          "id": 116241780,
+          "end_utc": "2026-10-01T09:02:47.014403300Z",
+          "end_ny": "2026-10-01T05:02:47.014403-04:00",
+          "result": "胜",
+          "margin": 2054,
+          "score": 2152.103448014099,
+          "opponent_score": 2145.152128160493,
+          "opponent_submission": 56709657,
+          "opponent_team": "Olympus"
+        },
+        {
+          "id": 116259129,
+          "end_utc": "2026-10-01T09:43:13.542638400Z",
+          "end_ny": "2026-10-01T05:43:13.542638-04:00",
+          "result": "负",
+          "margin": -7828,
+          "score": 2148.3458099413706,
+          "opponent_score": 2198.47349558058,
+          "opponent_submission": 56722344,
+          "opponent_team": "Agricola"
+        },
+        {
+          "id": 116262342,
+          "end_utc": "2026-10-01T09:49:26.545258900Z",
+          "end_ny": "2026-10-01T05:49:26.545258-04:00",
+          "result": "负",
+          "margin": -12914,
+          "score": 2143.919005146937,
+          "opponent_score": 2152.2922897724834,
+          "opponent_submission": 56720127,
+          "opponent_team": "Have a nice trip in USST"
+        },
+        {
+          "id": 116279074,
+          "end_utc": "2026-10-01T10:32:49.355862800Z",
+          "end_ny": "2026-10-01T06:32:49.355862-04:00",
+          "result": "胜",
+          "margin": 1344,
+          "score": 2148.5660268198108,
+          "opponent_score": 2153.306475943195,
+          "opponent_submission": 56684484,
+          "opponent_team": "Dmytro Maliarenko"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "source_filename": "kaggriculture-publicleaderboard-2026-10-01T10:52:58.csv",
+    "teams": 10246,
+    "rank": 415,
+    "score": 2150.2,
+    "cuts": {
+      "gold": {
+        "rank": 30,
+        "score": 2695.9,
+        "buffer_score": -545.7,
+        "buffer_rank": -385
+      },
+      "silver": {
+        "rank": 512,
+        "score": 2071.8,
+        "buffer_score": 78.4,
+        "buffer_rank": 97
+      },
+      "bronze": {
+        "rank": 1024,
+        "score": 1837.1,
+        "buffer_score": 313.1,
+        "buffer_rank": 609
+      }
+    }
+  },
+  "public_changes": []
+}

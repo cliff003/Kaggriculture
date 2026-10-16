@@ -1,0 +1,8 @@
+# The agents in submissions/ need only the Python standard library.
+# The tools and research scripts were run with Python 3.12 and:
+kaggle-environments==1.32.7   # game engine; reproduces server games exactly
+numpy
+kaggle==2.2.4                 # tools/kg.py (leaderboard, episodes, replays); needs your own Kaggle API token
+requests
+Pillow                        # docs/figures/build.py (figures; also needs Chrome)
+# Optional: torch (bc/, behaviour cloning)

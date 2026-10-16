@@ -1,0 +1,312 @@
+{
+ "tick_and_sandwich": {
+  "game": 113707384,
+  "teams": [
+   "42",
+   "Sho Saga"
+  ],
+  "our_seat": 0,
+  "rewards": [
+   104872.0,
+   121615.0
+  ],
+  "mode": "live",
+  "steps": {
+   "300": {
+    "stock_start": 9789,
+    "gap_start": 211,
+    "eaten": 3,
+    "day": 12,
+    "hour": 12,
+    "fills": [
+     {
+      "slot": 0,
+      "who": "rival",
+      "op": "BUY_PRODUCT",
+      "units": 86,
+      "first": 40,
+      "last": 42,
+      "total": 3522
+     },
+     {
+      "slot": 9,
+      "who": "rival",
+      "op": "SELL",
+      "units": 86,
+      "first": 42,
+      "last": 42,
+      "total": 3612
+     },
+     {
+      "slot": 9,
+      "who": "us",
+      "op": "BUY_PRODUCT",
+      "units": 95,
+      "first": 42,
+      "last": 42,
+      "total": 3990
+     }
+    ]
+   },
+   "301": {
+    "stock_start": 9691,
+    "gap_start": 309,
+    "eaten": 0,
+    "day": 12,
+    "hour": 13,
+    "fills": [
+     {
+      "slot": 0,
+      "who": "rival",
+      "op": "SELL",
+      "units": 13,
+      "first": 43,
+      "last": 42,
+      "total": 548
+     },
+     {
+      "slot": 0,
+      "who": "us",
+      "op": "SELL",
+      "units": 95,
+      "first": 43,
+      "last": 39,
+      "total": 3873
+     },
+     {
+      "slot": 9,
+      "who": "rival",
+      "op": "BUY_PRODUCT",
+      "units": 13,
+      "first": 39,
+      "last": 40,
+      "total": 511
+     }
+    ]
+   },
+   "304": {
+    "stock_start": 9786,
+    "gap_start": 214,
+    "eaten": 3,
+    "day": 12,
+    "hour": 16,
+    "fills": [
+     {
+      "slot": 9,
+      "who": "us",
+      "op": "BUY_PRODUCT",
+      "units": 95,
+      "first": 40,
+      "last": 43,
+      "total": 3909
+     }
+    ]
+   },
+   "305": {
+    "stock_start": 9688,
+    "gap_start": 312,
+    "eaten": 0,
+    "day": 12,
+    "hour": 17,
+    "fills": [
+     {
+      "slot": 0,
+      "who": "us",
+      "op": "SELL",
+      "units": 95,
+      "first": 43,
+      "last": 40,
+      "total": 3918
+     },
+     {
+      "slot": 1,
+      "who": "rival",
+      "op": "SELL",
+      "units": 13,
+      "first": 40,
+      "last": 39,
+      "total": 514
+     },
+     {
+      "slot": 9,
+      "who": "rival",
+      "op": "BUY_PRODUCT",
+      "units": 13,
+      "first": 39,
+      "last": 40,
+      "total": 514
+     }
+    ]
+   }
+  },
+  "own_order_expectation_300": 3900
+ },
+ "trap_guard": {
+  "game": 113707384,
+  "teams": [
+   "42",
+   "Sho Saga"
+  ],
+  "our_seat": 0,
+  "rewards": [
+   119773.0,
+   105854.0
+  ],
+  "mode": "replay",
+  "steps": {
+   "324": {
+    "stock_start": 9691,
+    "gap_start": 309,
+    "eaten": 3,
+    "day": 13,
+    "hour": 12,
+    "fills": [
+     {
+      "slot": 0,
+      "who": "rival",
+      "op": "BUY_PRODUCT",
+      "units": 90,
+      "first": 43,
+      "last": 45,
+      "total": 3946
+     },
+     {
+      "slot": 1,
+      "who": "us",
+      "op": "SELL",
+      "units": 15,
+      "first": 45,
+      "last": 45,
+      "total": 675
+     },
+     {
+      "slot": 2,
+      "who": "us",
+      "op": "SELL",
+      "units": 65,
+      "first": 45,
+      "last": 43,
+      "total": 2841
+     },
+     {
+      "slot": 9,
+      "who": "rival",
+      "op": "SELL",
+      "units": 90,
+      "first": 43,
+      "last": 40,
+      "total": 3739
+     }
+    ]
+   },
+   "325": {
+    "stock_start": 9768,
+    "gap_start": 232,
+    "eaten": 0,
+    "day": 13,
+    "hour": 13,
+    "fills": [
+     {
+      "slot": 9,
+      "who": "us",
+      "op": "BUY_PRODUCT",
+      "units": 79,
+      "first": 40,
+      "last": 43,
+      "total": 3275
+     }
+    ]
+   }
+  }
+ },
+ "fade": {
+  "game": 113305232,
+  "teams": [
+   "42",
+   "The Grower"
+  ],
+  "our_seat": 0,
+  "mode": "replay",
+  "steps": {
+   "364": {
+    "stock_start": 9691,
+    "gap_start": 309,
+    "eaten": 2,
+    "day": 15,
+    "hour": 4,
+    "fills": [
+     {
+      "slot": 0,
+      "who": "rival",
+      "op": "BUY_PRODUCT",
+      "units": 77,
+      "first": 43,
+      "last": 45,
+      "total": 3407
+     },
+     {
+      "slot": 0,
+      "who": "us",
+      "op": "BUY_PRODUCT",
+      "units": 30,
+      "first": 43,
+      "last": 44,
+      "total": 1303
+     },
+     {
+      "slot": 9,
+      "who": "us",
+      "op": "SELL",
+      "units": 90,
+      "first": 45,
+      "last": 43,
+      "total": 3980
+     }
+    ]
+   },
+   "365": {
+    "stock_start": 9672,
+    "gap_start": 328,
+    "eaten": 0,
+    "day": 15,
+    "hour": 5,
+    "fills": [
+     {
+      "slot": 0,
+      "who": "rival",
+      "op": "SELL",
+      "units": 77,
+      "first": 43,
+      "last": 41,
+      "total": 3215
+     },
+     {
+      "slot": 0,
+      "who": "us",
+      "op": "SELL",
+      "units": 10,
+      "first": 43,
+      "last": 43,
+      "total": 430
+     },
+     {
+      "slot": 9,
+      "who": "us",
+      "op": "BUY_PRODUCT",
+      "units": 90,
+      "first": 41,
+      "last": 43,
+      "total": 3774
+     }
+    ]
+   }
+  },
+  "estimate": {
+   "slope": 0.028,
+   "lot": 90,
+   "rival": 77,
+   "eaten": 2,
+   "value": 192
+  }
+ }
+}

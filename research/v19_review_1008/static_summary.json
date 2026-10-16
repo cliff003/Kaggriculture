@@ -1,0 +1,186 @@
+{
+  "basis": "Static audit of own sealed agents and metadata frozen 2026-10-08 02:58 America/New_York. No agent modification or submission.",
+  "sha256": {
+    "submissions/V12_AventadorSVJ/main.py": "08a0d374aedd20641cc91c1683b5560a0d56f19dbe4be245dd117c95bbf3cd57",
+    "submissions/v12_19_own_cha22_adaptive_inputs/main.py": "3b6a78997364b12f0cca080ff657c31acd1cd087bcfb5f8362e41da69a137f87"
+  },
+  "base_entry": {
+    "submissions/V12_AventadorSVJ/main.py": "ig_agent",
+    "submissions/v12_19_own_cha22_adaptive_inputs/main.py": "adin_submission_entry"
+  },
+  "actual_changes_vs_v12": [
+    "v18 late-tomato patch: when x18 branch is active, four crop workers on days27-29, split day27 fertilizer workers, and eight extra fertilizer units on fertilization days.",
+    "v18 cash safeguard: skip one cheap-wheat buyback window on day11 when at least2 yarn stores, no SE land and wool price>=220; protects sheep investment/feed liquidity.",
+    "v19 supplementary WHEAT/CARROT fertilizer: sample public farm-layout similarity at steps264/272/280; freeze gate at287; only all3<0.94 use value>=1.0*cost+20 and fertilizer path penalty0.75; otherwise original1.5*cost+50 and penalty1.5."
+  ],
+  "static_verification": [
+    "Latest base entry is adin_submission_entry. Parent entry is ig_agent, preserving upstream chain. Runtime path does not skip the adaptive entry.",
+    "Fertilizer cost calculation includes quoted fertilizer purchases and the marginal HIRE fee; max2 workers,3000 liquidity reserve, order/capacity and native-worker conflict checks remain.",
+    "Each supplementary tour still recalculates gain, current market quotes and cash. Step287 freezes only aggressive-versus-original mode, not a fixed route or price.",
+    "No obvious entry wiring or compile bug found in this static audit; no claim that all economic estimates are correct."
+  ],
+  "plausible_mechanisms_not_live_proven": [
+    "Layout similarity measures occupied tile crop/animal matching and land equality. It is a policy-family cue, not a causal predictor of fertilizer profitability or rival selling times; different unlocked quadrants forces similarity0.",
+    "Forecast uses native own tape to predict extra harvest and current market price for eventual added wheat/carrot revenue. It accounts for added own quantity when quoting the value, but does not explicitly simulate future rival supply, later demand or sale timing.",
+    "The lower gate accepts smaller estimated safety margins, so forecast or market-reaction errors can turn a locally positive project negative; this is a candidate explanation, not a confirmed cause of live score difference.",
+    "The aggressive flag stays frozen although rivals can diverge after day11. Later spot checks still prevent many bad tours, but do not reclassify the rival.",
+    "Extra tomato workers/inputs can improve realized yields yet cost wages and cash or shift sale timing. No live replay counterfactual has isolated which of the three combined changes helps or hurts."
+  ],
+  "release_evidence": {
+    "engine": "1.32.7",
+    "forced_shops": true,
+    "sha256": {
+      "submissions/V12_AventadorSVJ/main.py": "08a0d374aedd20641cc91c1683b5560a0d56f19dbe4be245dd117c95bbf3cd57",
+      "research/rescue_0930/candidates/input_adaptive94_combined_v1/main.py": "3b6a78997364b12f0cca080ff657c31acd1cd087bcfb5f8362e41da69a137f87"
+    },
+    "archive1528": {
+      "n": 1528,
+      "baseline_wins": 1239,
+      "candidate_wins": 1248,
+      "flips_up": [
+        113918675,
+        114644301,
+        114902771,
+        114912503,
+        114927308,
+        115002708,
+        115044027,
+        115131957,
+        115286746
+      ],
+      "flips_down": [],
+      "mean_margin_change": 266.2,
+      "changed": 356,
+      "not_done": 0
+    },
+    "latest20": {
+      "n": 20,
+      "baseline_wins": 6,
+      "candidate_wins": 7,
+      "flips_up": [
+        115785512
+      ],
+      "flips_down": [],
+      "mean_margin_change": 302.55,
+      "changed": 8,
+      "not_done": 0,
+      "max_step_seconds": 0.16363204100343864,
+      "agent_errors": 0
+    },
+    "holdout24": {
+      "n": 24,
+      "baseline_wins": 14,
+      "candidate_wins": 14,
+      "flips_up": [],
+      "flips_down": [],
+      "mean_margin_change": 193.79,
+      "changed": 7,
+      "not_done": 0,
+      "max_step_seconds": 0.09965408300195122,
+      "agent_errors": 0
+    },
+    "all_unique_replays": {
+      "n": 1572,
+      "baseline_wins": 1259,
+      "candidate_wins": 1269,
+      "flips_up": [
+        113918675,
+        114644301,
+        114902771,
+        114912503,
+        114927308,
+        115002708,
+        115044027,
+        115131957,
+        115286746,
+        115785512
+      ],
+      "flips_down": [],
+      "mean_margin_change": 265.56,
+      "changed": 371,
+      "not_done": 0
+    },
+    "recent300": {
+      "path": "research/rescue_0930/candidates/input_adaptive94_combined_v1/main.py",
+      "sha256": "3b6a78997364b12f0cca080ff657c31acd1cd087bcfb5f8362e41da69a137f87",
+      "n": 300,
+      "wins": 172,
+      "delta": 400.69,
+      "up": [
+        114902771,
+        114912503,
+        114927308,
+        115002708,
+        115044027,
+        115131957,
+        115286746
+      ],
+      "down": [],
+      "bad": []
+    },
+    "reactive312": {
+      "n": 312,
+      "baseline_wins": 306,
+      "candidate_wins": 306,
+      "flips_up": [],
+      "flips_down": [],
+      "mean_margin_change": 1.06,
+      "changed": 1,
+      "not_done": 0
+    },
+    "reactive_public48": {
+      "n": 48,
+      "baseline_wins": 46,
+      "candidate_wins": 46,
+      "flips_up": [],
+      "flips_down": [],
+      "mean_margin_change": 98.5,
+      "changed": 2,
+      "not_done": 0
+    },
+    "physical112": {
+      "n": 112,
+      "baseline_wins": 98,
+      "candidate_wins": 98,
+      "flips_up": [],
+      "flips_down": [],
+      "mean_margin_change": 0.0,
+      "changed": 0,
+      "not_done": 0
+    },
+    "official_environment": "status ['DONE', 'DONE'] reward [69422.0, 69422.0] steps 720 wall 10.5",
+    "passes_release_gate": true
+  },
+  "release_interpretation": [
+    "1572 fixed historical replays yielded+10wins/0loss-flips, a0.636 percentage-point gain, but recorded opponents cannot react to changed selling/buying.",
+    "Only24 fresh holdout games were independent at release; win count14->14. Latest20 had6->7.",
+    "360 reactive games had no gain;112 production-only checks had identical action/outcome behavior. These do not establish improvement against modern independent production opponents.",
+    "Repeated candidate screening and historical family concentration can overstate a small apparent gain. No calibrated out-of-population improvement was established."
+  ],
+  "common_opponents_frozen_metadata": {
+    "cutoff_utc": "2026-09-30T23:59:00+00:00",
+    "filter": "Completed public episodes after cutoff, exclude own team opponents",
+    "common_opponent_submissions": 111,
+    "both_versions_at_least3_games": 2,
+    "metrics": {
+      "56649860": {
+        "n": 160,
+        "wins": 62,
+        "seat0": 84,
+        "mean_opponent_initial_score": 2064.6,
+        "equal_opponent_weighted_winrate": 0.3941
+      },
+      "56713491": {
+        "n": 157,
+        "wins": 72,
+        "seat0": 89,
+        "mean_opponent_initial_score": 2068.5,
+        "equal_opponent_weighted_winrate": 0.4508
+      }
+    },
+    "limits": [
+      "Different episodes/worlds, nonrandom matchmaking, different times and frequency weights. Only2 opponents have>=3games for both. This sparse observational subgroup is not paired causal testing.",
+      "The subgroup favors v19 descriptively, so the current lower rating alone does not prove every patch degrades strength; neither does this subgroup prove v19 stronger."
+    ]
+  }
+}

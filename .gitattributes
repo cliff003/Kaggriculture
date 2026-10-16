@@ -1,0 +1,5 @@
+# Submission packages stay byte for byte: some main.py files use CRLF, and every sha256 is listed in submissions/README.md.
+submissions/** -text
+*.tar.gz binary
+*.png binary
+*.woff2 binary

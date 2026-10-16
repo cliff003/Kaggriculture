@@ -1,0 +1,1561 @@
+{
+  "engine": "1.32.7",
+  "fixed_shops": true,
+  "fixed_opponent_actions": true,
+  "n": 51,
+  "selected_n": 51,
+  "selection": "all 51 completed public episodes ending New York 2026-10-06 in saved 2026-10-08 snapshot",
+  "hashes": {
+    "/Users/cliff/Documents/coding/kaggriculture_handoff_20260927/project/submissions/v12_19_own_cha22_adaptive_inputs/main.py": "3b6a78997364b12f0cca080ff657c31acd1cd087bcfb5f8362e41da69a137f87",
+    "/Users/cliff/Documents/coding/kaggriculture_handoff_20260927/project/submissions/V12_AventadorSVJ/main.py": "08a0d374aedd20641cc91c1683b5560a0d56f19dbe4be245dd117c95bbf3cd57"
+  },
+  "new_wins": 21,
+  "old_wins": 21,
+  "new_max_server_reward_error": 0.0,
+  "flip_up": [],
+  "flip_down": [],
+  "mean_new_minus_old": 479.11764705882354,
+  "enabled": 13,
+  "identical_action_tapes": 34,
+  "positive_margin_gains": 14,
+  "negative_margin_gains": 3,
+  "limitations": [
+    "One full day, not the entire seven-day production league.",
+    "Fixed opponent actions do not react to changed orders.",
+    "New version reproduction must match both server cash values exactly.",
+    "Requested hire counts are not actual audited expenditures.",
+    "This counterfactual is not an estimate of score changes."
+  ],
+  "pairs": [
+    {
+      "id": 118751611,
+      "opponent": "Shangshang Zhang",
+      "end": "2026-10-06T04:12:16.431600500Z",
+      "old_margin": -6728.0,
+      "new_margin": -5357.0,
+      "gain": 1371.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.3150684931506849,
+          0.3108108108108108
+        ],
+        "calls": 13,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 103959.0,
+      "new_money": 105005.0,
+      "old_opponent_money": 110687.0,
+      "new_opponent_money": 110362.0,
+      "changed_action_steps": 242,
+      "first_changed_step": 314,
+      "old_hires_requested": 267,
+      "new_hires_requested": 275
+    },
+    {
+      "id": 118766701,
+      "opponent": "Subramanya N",
+      "end": "2026-10-06T04:52:15.909306300Z",
+      "old_margin": 776.0,
+      "new_margin": 776.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          0.9583333333333334,
+          0.9615384615384616,
+          0.9661016949152542
+        ],
+        "calls": 22,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 107582.0,
+      "new_money": 107582.0,
+      "old_opponent_money": 106806.0,
+      "new_opponent_money": 106806.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 269,
+      "new_hires_requested": 269
+    },
+    {
+      "id": 118780467,
+      "opponent": "Zenith Ye",
+      "end": "2026-10-06T05:31:41.724758900Z",
+      "old_margin": -761.0,
+      "new_margin": -124.0,
+      "gain": 637.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.7916666666666666,
+          0.8076923076923077,
+          0.847457627118644
+        ],
+        "calls": 20,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 80869.0,
+      "new_money": 81396.0,
+      "old_opponent_money": 81630.0,
+      "new_opponent_money": 81520.0,
+      "changed_action_steps": 154,
+      "first_changed_step": 458,
+      "old_hires_requested": 265,
+      "new_hires_requested": 270
+    },
+    {
+      "id": 118782285,
+      "opponent": "github/shepsci/kaggle-skill",
+      "end": "2026-10-06T05:38:36.910722Z",
+      "old_margin": 1502.0,
+      "new_margin": 9017.0,
+      "gain": 7515.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 25,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 123375.0,
+      "new_money": 128119.0,
+      "old_opponent_money": 121873.0,
+      "new_opponent_money": 119102.0,
+      "changed_action_steps": 93,
+      "first_changed_step": 578,
+      "old_hires_requested": 289,
+      "new_hires_requested": 294
+    },
+    {
+      "id": 118797410,
+      "opponent": "Emre",
+      "end": "2026-10-06T06:21:59.558041200Z",
+      "old_margin": 714.0,
+      "new_margin": 714.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 18,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 88290.0,
+      "new_money": 88290.0,
+      "old_opponent_money": 87576.0,
+      "new_opponent_money": 87576.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 283,
+      "new_hires_requested": 283
+    },
+    {
+      "id": 118798216,
+      "opponent": "KyryloBakumenko",
+      "end": "2026-10-06T06:23:59.977730800Z",
+      "old_margin": 7254.0,
+      "new_margin": 7254.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          0.9583333333333334,
+          0.9636363636363636,
+          0.9692307692307692
+        ],
+        "calls": 26,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 92504.0,
+      "new_money": 92504.0,
+      "old_opponent_money": 85250.0,
+      "new_opponent_money": 85250.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 280,
+      "new_hires_requested": 280
+    },
+    {
+      "id": 118813480,
+      "opponent": "Ilya Usmanov",
+      "end": "2026-10-06T07:07:20.464222700Z",
+      "old_margin": -7968.0,
+      "new_margin": -7582.0,
+      "gain": 386.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.49333333333333335,
+          0.49333333333333335
+        ],
+        "calls": 18,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 134456.0,
+      "new_money": 134723.0,
+      "old_opponent_money": 142424.0,
+      "new_opponent_money": 142305.0,
+      "changed_action_steps": 181,
+      "first_changed_step": 337,
+      "old_hires_requested": 264,
+      "new_hires_requested": 269
+    },
+    {
+      "id": 118828494,
+      "opponent": "Dmytro Maliarenko",
+      "end": "2026-10-06T07:46:36.362930200Z",
+      "old_margin": -723.0,
+      "new_margin": -723.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          0.9791666666666666,
+          0.9821428571428571,
+          0.9855072463768116
+        ],
+        "calls": 26,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 99152.0,
+      "new_money": 99152.0,
+      "old_opponent_money": 99875.0,
+      "new_opponent_money": 99875.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 305,
+      "new_hires_requested": 305
+    },
+    {
+      "id": 118843664,
+      "opponent": "spencersi123",
+      "end": "2026-10-06T08:28:49.300321600Z",
+      "old_margin": 6740.0,
+      "new_margin": 7575.0,
+      "gain": 835.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.9166666666666666,
+          0.8392857142857143,
+          0.75
+        ],
+        "calls": 19,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 94504.0,
+      "new_money": 95146.0,
+      "old_opponent_money": 87764.0,
+      "new_opponent_money": 87571.0,
+      "changed_action_steps": 167,
+      "first_changed_step": 337,
+      "old_hires_requested": 263,
+      "new_hires_requested": 268
+    },
+    {
+      "id": 118858627,
+      "opponent": "Ling",
+      "end": "2026-10-06T09:08:28.848353800Z",
+      "old_margin": 1229.0,
+      "new_margin": 1229.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 24,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 111091.0,
+      "new_money": 111091.0,
+      "old_opponent_money": 109862.0,
+      "new_opponent_money": 109862.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 272,
+      "new_hires_requested": 272
+    },
+    {
+      "id": 118873902,
+      "opponent": "@Suzumaru_1666",
+      "end": "2026-10-06T09:55:28.730182Z",
+      "old_margin": 9572.0,
+      "new_margin": 9572.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 24,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 108745.0,
+      "new_money": 108745.0,
+      "old_opponent_money": 99173.0,
+      "new_opponent_money": 99173.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 267,
+      "new_hires_requested": 267
+    },
+    {
+      "id": 118887172,
+      "opponent": "URAD",
+      "end": "2026-10-06T10:29:26.684738900Z",
+      "old_margin": 1589.0,
+      "new_margin": 1589.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 21,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 108844.0,
+      "new_money": 108844.0,
+      "old_opponent_money": 107255.0,
+      "new_opponent_money": 107255.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 284,
+      "new_hires_requested": 284
+    },
+    {
+      "id": 118902226,
+      "opponent": "atsu0905",
+      "end": "2026-10-06T11:12:35.047351900Z",
+      "old_margin": 432.0,
+      "new_margin": 1886.0,
+      "gain": 1454.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.2602739726027397,
+          0.32432432432432434
+        ],
+        "calls": 18,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 100852.0,
+      "new_money": 101862.0,
+      "old_opponent_money": 100420.0,
+      "new_opponent_money": 99976.0,
+      "changed_action_steps": 218,
+      "first_changed_step": 337,
+      "old_hires_requested": 263,
+      "new_hires_requested": 271
+    },
+    {
+      "id": 118917374,
+      "opponent": "Dlyra",
+      "end": "2026-10-06T11:53:57.419241700Z",
+      "old_margin": 9797.0,
+      "new_margin": 9797.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 25,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 108507.0,
+      "new_money": 108507.0,
+      "old_opponent_money": 98710.0,
+      "new_opponent_money": 98710.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 265,
+      "new_hires_requested": 265
+    },
+    {
+      "id": 118917307,
+      "opponent": "Gleb Tumanov",
+      "end": "2026-10-06T11:54:35.821453Z",
+      "old_margin": -5257.0,
+      "new_margin": -5257.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          0.9661016949152542
+        ],
+        "calls": 24,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 75533.0,
+      "new_money": 75533.0,
+      "old_opponent_money": 80790.0,
+      "new_opponent_money": 80790.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 265,
+      "new_hires_requested": 265
+    },
+    {
+      "id": 118920136,
+      "opponent": "BraydenPikachu",
+      "end": "2026-10-06T12:02:34.622359600Z",
+      "old_margin": -234.0,
+      "new_margin": -465.0,
+      "gain": -231.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.21739130434782608,
+          0.2571428571428571
+        ],
+        "calls": 21,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 112937.0,
+      "new_money": 113181.0,
+      "old_opponent_money": 113171.0,
+      "new_opponent_money": 113646.0,
+      "changed_action_steps": 104,
+      "first_changed_step": 506,
+      "old_hires_requested": 265,
+      "new_hires_requested": 268
+    },
+    {
+      "id": 118920439,
+      "opponent": "Blu3s",
+      "end": "2026-10-06T12:03:21.983168100Z",
+      "old_margin": -7191.0,
+      "new_margin": -7242.0,
+      "gain": -51.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.2923076923076923,
+          0.3088235294117647
+        ],
+        "calls": 19,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 81092.0,
+      "new_money": 81466.0,
+      "old_opponent_money": 88283.0,
+      "new_opponent_money": 88708.0,
+      "changed_action_steps": 235,
+      "first_changed_step": 314,
+      "old_hires_requested": 297,
+      "new_hires_requested": 303
+    },
+    {
+      "id": 118932566,
+      "opponent": "Paing",
+      "end": "2026-10-06T12:39:39.015936800Z",
+      "old_margin": -3519.0,
+      "new_margin": -3519.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 23,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 94147.0,
+      "new_money": 94147.0,
+      "old_opponent_money": 97666.0,
+      "new_opponent_money": 97666.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 267,
+      "new_hires_requested": 267
+    },
+    {
+      "id": 118947603,
+      "opponent": "neibyr",
+      "end": "2026-10-06T13:16:04.528172100Z",
+      "old_margin": 672.0,
+      "new_margin": 672.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 23,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 106914.0,
+      "new_money": 106914.0,
+      "old_opponent_money": 106242.0,
+      "new_opponent_money": 106242.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 266,
+      "new_hires_requested": 266
+    },
+    {
+      "id": 118948254,
+      "opponent": "Hikaru Umeda",
+      "end": "2026-10-06T13:21:11.615182200Z",
+      "old_margin": -2853.0,
+      "new_margin": -2853.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          0.9791666666666666,
+          0.9807692307692307,
+          0.9830508474576272
+        ],
+        "calls": 26,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 101459.0,
+      "new_money": 101459.0,
+      "old_opponent_money": 104312.0,
+      "new_opponent_money": 104312.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 264,
+      "new_hires_requested": 264
+    },
+    {
+      "id": 118948256,
+      "opponent": "extra eclaire",
+      "end": "2026-10-06T13:22:28.178629800Z",
+      "old_margin": -1844.0,
+      "new_margin": -1844.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 22,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 99719.0,
+      "new_money": 99719.0,
+      "old_opponent_money": 101563.0,
+      "new_opponent_money": 101563.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 266,
+      "new_hires_requested": 266
+    },
+    {
+      "id": 118963617,
+      "opponent": "snappi",
+      "end": "2026-10-06T14:07:09.503649200Z",
+      "old_margin": -2945.0,
+      "new_margin": -2384.0,
+      "gain": 561.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.4,
+          0.41333333333333333
+        ],
+        "calls": 17,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 86181.0,
+      "new_money": 86690.0,
+      "old_opponent_money": 89126.0,
+      "new_opponent_money": 89074.0,
+      "changed_action_steps": 218,
+      "first_changed_step": 337,
+      "old_hires_requested": 265,
+      "new_hires_requested": 271
+    },
+    {
+      "id": 118967312,
+      "opponent": "Zenith Ye",
+      "end": "2026-10-06T14:15:16.435730900Z",
+      "old_margin": -220.0,
+      "new_margin": -220.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 24,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 99421.0,
+      "new_money": 99421.0,
+      "old_opponent_money": 99641.0,
+      "new_opponent_money": 99641.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 265,
+      "new_hires_requested": 265
+    },
+    {
+      "id": 118978589,
+      "opponent": "LitvinKA",
+      "end": "2026-10-06T14:48:36.360749800Z",
+      "old_margin": -9814.0,
+      "new_margin": -9654.0,
+      "gain": 160.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.30666666666666664,
+          0.35135135135135137
+        ],
+        "calls": 20,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 85011.0,
+      "new_money": 85261.0,
+      "old_opponent_money": 94825.0,
+      "new_opponent_money": 94915.0,
+      "changed_action_steps": 136,
+      "first_changed_step": 458,
+      "old_hires_requested": 282,
+      "new_hires_requested": 286
+    },
+    {
+      "id": 118981601,
+      "opponent": "奶龙宝宝爱种田吖",
+      "end": "2026-10-06T14:54:49.335868200Z",
+      "old_margin": -1068.0,
+      "new_margin": -1068.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 25,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 143656.0,
+      "new_money": 143656.0,
+      "old_opponent_money": 144724.0,
+      "new_opponent_money": 144724.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 265,
+      "new_hires_requested": 265
+    },
+    {
+      "id": 118982316,
+      "opponent": "涵哥",
+      "end": "2026-10-06T15:02:30.077445700Z",
+      "old_margin": -4145.0,
+      "new_margin": -4145.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          0.9791666666666666,
+          0.9807692307692307,
+          0.9830508474576272
+        ],
+        "calls": 21,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 128948.0,
+      "new_money": 128948.0,
+      "old_opponent_money": 133093.0,
+      "new_opponent_money": 133093.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 284,
+      "new_hires_requested": 284
+    },
+    {
+      "id": 118997511,
+      "opponent": "Mario",
+      "end": "2026-10-06T15:38:46.473821800Z",
+      "old_margin": 4035.0,
+      "new_margin": 4035.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 21,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 88565.0,
+      "new_money": 88565.0,
+      "old_opponent_money": 84530.0,
+      "new_opponent_money": 84530.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 267,
+      "new_hires_requested": 267
+    },
+    {
+      "id": 119012859,
+      "opponent": "Paing",
+      "end": "2026-10-06T16:26:36.590499100Z",
+      "old_margin": -2395.0,
+      "new_margin": -2395.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          0.9791666666666666,
+          0.9807692307692307,
+          0.9830508474576272
+        ],
+        "calls": 24,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 83313.0,
+      "new_money": 83313.0,
+      "old_opponent_money": 85708.0,
+      "new_opponent_money": 85708.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 266,
+      "new_hires_requested": 266
+    },
+    {
+      "id": 119027902,
+      "opponent": "yefenfei",
+      "end": "2026-10-06T17:06:08.276428800Z",
+      "old_margin": -1183.0,
+      "new_margin": -1183.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 22,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 94887.0,
+      "new_money": 94887.0,
+      "old_opponent_money": 96070.0,
+      "new_opponent_money": 96070.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 268,
+      "new_hires_requested": 268
+    },
+    {
+      "id": 119040662,
+      "opponent": "Crazy Spirits",
+      "end": "2026-10-06T17:42:00.566999400Z",
+      "old_margin": 1037.0,
+      "new_margin": 5314.0,
+      "gain": 4277.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 20,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 123095.0,
+      "new_money": 125672.0,
+      "old_opponent_money": 122058.0,
+      "new_opponent_money": 120358.0,
+      "changed_action_steps": 93,
+      "first_changed_step": 578,
+      "old_hires_requested": 290,
+      "new_hires_requested": 295
+    },
+    {
+      "id": 119055947,
+      "opponent": "fufufukakaka",
+      "end": "2026-10-06T18:29:53.321251Z",
+      "old_margin": -4129.0,
+      "new_margin": -4410.0,
+      "gain": -281.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.2916666666666667,
+          0.28378378378378377
+        ],
+        "calls": 13,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 120361.0,
+      "new_money": 120667.0,
+      "old_opponent_money": 124490.0,
+      "new_opponent_money": 125077.0,
+      "changed_action_steps": 230,
+      "first_changed_step": 314,
+      "old_hires_requested": 269,
+      "new_hires_requested": 276
+    },
+    {
+      "id": 119058270,
+      "opponent": "Jason-Oh",
+      "end": "2026-10-06T18:34:46.029010900Z",
+      "old_margin": -5055.0,
+      "new_margin": -5055.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          0.8928571428571429,
+          0.8405797101449275
+        ],
+        "calls": 28,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 65010.0,
+      "new_money": 65010.0,
+      "old_opponent_money": 70065.0,
+      "new_opponent_money": 70065.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 304,
+      "new_hires_requested": 304
+    },
+    {
+      "id": 119063932,
+      "opponent": "Haalandspring",
+      "end": "2026-10-06T18:51:26.480101200Z",
+      "old_margin": 508.0,
+      "new_margin": 508.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 20,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 98864.0,
+      "new_money": 98864.0,
+      "old_opponent_money": 98356.0,
+      "new_opponent_money": 98356.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 284,
+      "new_hires_requested": 284
+    },
+    {
+      "id": 119079135,
+      "opponent": "Nguyễn Trần Thanh Bình",
+      "end": "2026-10-06T19:36:22.785384200Z",
+      "old_margin": -1415.0,
+      "new_margin": -264.0,
+      "gain": 1151.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "calls": 16,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 108309.0,
+      "new_money": 108989.0,
+      "old_opponent_money": 109724.0,
+      "new_opponent_money": 109253.0,
+      "changed_action_steps": 222,
+      "first_changed_step": 314,
+      "old_hires_requested": 266,
+      "new_hires_requested": 272
+    },
+    {
+      "id": 119085074,
+      "opponent": "yefenfei",
+      "end": "2026-10-06T19:52:38.160037500Z",
+      "old_margin": -1250.0,
+      "new_margin": -1250.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 24,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 111781.0,
+      "new_money": 111781.0,
+      "old_opponent_money": 113031.0,
+      "new_opponent_money": 113031.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 266,
+      "new_hires_requested": 266
+    },
+    {
+      "id": 119100204,
+      "opponent": "colum2131",
+      "end": "2026-10-06T20:42:19.647915500Z",
+      "old_margin": -74.0,
+      "new_margin": -74.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 23,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 75441.0,
+      "new_money": 75441.0,
+      "old_opponent_money": 75515.0,
+      "new_opponent_money": 75515.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 266,
+      "new_hires_requested": 266
+    },
+    {
+      "id": 119104016,
+      "opponent": "neibyr",
+      "end": "2026-10-06T20:59:32.264848300Z",
+      "old_margin": 8889.0,
+      "new_margin": 8889.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 24,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 84459.0,
+      "new_money": 84459.0,
+      "old_opponent_money": 75570.0,
+      "new_opponent_money": 75570.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 267,
+      "new_hires_requested": 267
+    },
+    {
+      "id": 119119215,
+      "opponent": "SH11235",
+      "end": "2026-10-06T21:38:12.592541Z",
+      "old_margin": -2026.0,
+      "new_margin": -2026.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 26,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 100196.0,
+      "new_money": 100196.0,
+      "old_opponent_money": 102222.0,
+      "new_opponent_money": 102222.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 305,
+      "new_hires_requested": 305
+    },
+    {
+      "id": 119133442,
+      "opponent": "Arman Tuganbaev",
+      "end": "2026-10-06T22:16:27.479001800Z",
+      "old_margin": -542.0,
+      "new_margin": -542.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          0.9661016949152542
+        ],
+        "calls": 23,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 120604.0,
+      "new_money": 120604.0,
+      "old_opponent_money": 121146.0,
+      "new_opponent_money": 121146.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 267,
+      "new_hires_requested": 267
+    },
+    {
+      "id": 119133076,
+      "opponent": "yefenfei",
+      "end": "2026-10-06T22:18:51.174547800Z",
+      "old_margin": -1366.0,
+      "new_margin": -1366.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 23,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 74081.0,
+      "new_money": 74081.0,
+      "old_opponent_money": 75447.0,
+      "new_opponent_money": 75447.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 267,
+      "new_hires_requested": 267
+    },
+    {
+      "id": 119134007,
+      "opponent": "takaito",
+      "end": "2026-10-06T22:22:39.376594300Z",
+      "old_margin": 37720.0,
+      "new_margin": 37720.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 25,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 109672.0,
+      "new_money": 109672.0,
+      "old_opponent_money": 71952.0,
+      "new_opponent_money": 71952.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 265,
+      "new_hires_requested": 265
+    },
+    {
+      "id": 119147209,
+      "opponent": "Munal Singh",
+      "end": "2026-10-06T23:02:26.772722300Z",
+      "old_margin": 24130.0,
+      "new_margin": 24130.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 25,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 113201.0,
+      "new_money": 113201.0,
+      "old_opponent_money": 89071.0,
+      "new_opponent_money": 89071.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 266,
+      "new_hires_requested": 266
+    },
+    {
+      "id": 119148754,
+      "opponent": "KouFu",
+      "end": "2026-10-06T23:05:06.950354100Z",
+      "old_margin": 1189.0,
+      "new_margin": 1189.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 21,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 81616.0,
+      "new_money": 81616.0,
+      "old_opponent_money": 80427.0,
+      "new_opponent_money": 80427.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 267,
+      "new_hires_requested": 267
+    },
+    {
+      "id": 119163961,
+      "opponent": "RangerSnow",
+      "end": "2026-10-06T23:49:17.147759100Z",
+      "old_margin": -9631.0,
+      "new_margin": -9224.0,
+      "gain": 407.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 22,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 124845.0,
+      "new_money": 124497.0,
+      "old_opponent_money": 134476.0,
+      "new_opponent_money": 133721.0,
+      "changed_action_steps": 96,
+      "first_changed_step": 579,
+      "old_hires_requested": 289,
+      "new_hires_requested": 294
+    },
+    {
+      "id": 119179132,
+      "opponent": "Will Rice",
+      "end": "2026-10-07T00:29:20.158902900Z",
+      "old_margin": -373.0,
+      "new_margin": -373.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 25,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 85447.0,
+      "new_money": 85447.0,
+      "old_opponent_money": 85820.0,
+      "new_opponent_money": 85820.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 281,
+      "new_hires_requested": 281
+    },
+    {
+      "id": 119193559,
+      "opponent": "ryomac1",
+      "end": "2026-10-07T01:11:13.612198500Z",
+      "old_margin": -33.0,
+      "new_margin": -33.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 22,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 71016.0,
+      "new_money": 71016.0,
+      "old_opponent_money": 71049.0,
+      "new_opponent_money": 71049.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 266,
+      "new_hires_requested": 266
+    },
+    {
+      "id": 119195733,
+      "opponent": "cabbage corp",
+      "end": "2026-10-07T01:18:11.555451700Z",
+      "old_margin": -1256.0,
+      "new_margin": -1256.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 26,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 78374.0,
+      "new_money": 78374.0,
+      "old_opponent_money": 79630.0,
+      "new_opponent_money": 79630.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 281,
+      "new_hires_requested": 281
+    },
+    {
+      "id": 119211012,
+      "opponent": "奶龙宝宝爱种田吖",
+      "end": "2026-10-07T02:01:16.514022Z",
+      "old_margin": 560.0,
+      "new_margin": 560.0,
+      "gain": 0.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 26,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 104119.0,
+      "new_money": 104119.0,
+      "old_opponent_money": 103559.0,
+      "new_opponent_money": 103559.0,
+      "changed_action_steps": 0,
+      "first_changed_step": null,
+      "old_hires_requested": 281,
+      "new_hires_requested": 281
+    },
+    {
+      "id": 119224681,
+      "opponent": "AkiraOnojp",
+      "end": "2026-10-07T02:39:50.339065300Z",
+      "old_margin": 20033.0,
+      "new_margin": 20394.0,
+      "gain": 361.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "calls": 26,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 159289.0,
+      "new_money": 159512.0,
+      "old_opponent_money": 139256.0,
+      "new_opponent_money": 139118.0,
+      "changed_action_steps": 113,
+      "first_changed_step": 530,
+      "old_hires_requested": 301,
+      "new_hires_requested": 305
+    },
+    {
+      "id": 119237518,
+      "opponent": "yefenfei",
+      "end": "2026-10-07T03:13:02.560086600Z",
+      "old_margin": 4214.0,
+      "new_margin": 9928.0,
+      "gain": 5714.0,
+      "adaptive_stats": {
+        "enabled": false,
+        "similarities": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "calls": 21,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 106176.0,
+      "new_money": 109602.0,
+      "old_opponent_money": 101962.0,
+      "new_opponent_money": 99674.0,
+      "changed_action_steps": 93,
+      "first_changed_step": 579,
+      "old_hires_requested": 290,
+      "new_hires_requested": 295
+    },
+    {
+      "id": 119251797,
+      "opponent": "haru0707",
+      "end": "2026-10-07T03:52:14.727840100Z",
+      "old_margin": -1070.0,
+      "new_margin": -901.0,
+      "gain": 169.0,
+      "adaptive_stats": {
+        "enabled": true,
+        "similarities": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "calls": 23,
+        "errors": 0
+      },
+      "new_reward_errors": [
+        0.0,
+        0.0
+      ],
+      "old_money": 118240.0,
+      "new_money": 118798.0,
+      "old_opponent_money": 119310.0,
+      "new_opponent_money": 119699.0,
+      "changed_action_steps": 232,
+      "first_changed_step": 338,
+      "old_hires_requested": 304,
+      "new_hires_requested": 310
+    }
+  ]
+}

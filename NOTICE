@@ -1,0 +1,15 @@
+Kaggriculture, team 42 (Kefei Yan, Frank Yang, yirenw11)
+https://www.kaggle.com/competitions/kaggriculture
+
+This repository holds the team's write-up, its own tools and research code, and the agents it ran on the
+leaderboard. Those agents are derivative works of the public "cha22 agent" by Abhinav0370
+(https://www.kaggle.com/code/abhinav0370/cha22-agent, main.py SHA-256 127ed3e6...), itself an Apache-2.0
+derivative of the public route-replay lineage (thomastschinkel, yhay81, destbreso, aurax7, tetsutani,
+prvsiyan, Dmitrii Gluzdov, Ahmed Berat Ozer and others); v3 is built on Dmitrii Gluzdov's public rescue agent
+of the same lineage. Every package under submissions/ embeds its base source (verbatim up to v9; from v10 on
+with the production patches listed in that package's own NOTICE.txt), keeps all upstream license text and
+attribution notices, and carries its own LICENSE.txt and NOTICE.txt.
+
+The wheat tick-arbitrage idea behind the TICK layer was learned from public replays of the team Otter Vibe.
+
+Team 42's own code and text are licensed under the Apache License, Version 2.0 (see LICENSE).
